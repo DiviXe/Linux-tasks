@@ -3,9 +3,10 @@
 - Github repository tehty.
 - file h1-suolaa.md luotu github repoon.
 
-#A)
+# A)
 - Debian ladattu onnistuneesti VM boxiin. 
-- 
+- file:///home/leoah/Desktop/Screenshot_2023-03-29_22-10-52.png
+
 
  ## References
  
