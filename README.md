@@ -1,3 +1,4 @@
 # Linux-tasks
-Kotitehtävät Leo Ahopalo
-Adding linux tasks here. 
+## Kotitehtävät Leo Ahopalo
+
+- Working on linux task Salt
