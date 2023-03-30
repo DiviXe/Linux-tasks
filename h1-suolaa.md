@@ -27,15 +27,25 @@
 - Testataan onko koneet hengissä $ sudo salt '*' test.ping
 - Voit komentaa orjia komennolla $ sudo salt '*' cmd.run 'hostname -I'
 - Tärkeää tietoa koneista voidaan kerätä komennolla $ sudo salt '*' grains.items (esim ip osoitteen ja käyttöjärjestelmän.
+- Idempotenttikomennot esimerkiksi $ sudo salt '*' state.single file.managed '/tmp/see-you-at-terokarvinen-com' ensiksi tulee "Succeeded: 1 (changed=1) 
+- Tämän jälkeen komennon voi uudestaan ajaa ja changed pitäisi olla =0. IDEMPOTENTTISUUS ON KAIKISTA TÄRKEINTÄ!
+- Ohjelmistoja voidaan myös ladata esim. $ sudo salt '*' state.single pkg.installed apache2
+- Pitää varmistaa, että demoni on käynnissä $ sudo salt '*' state.single service.running apache2 
+- - otetaan userit käyttöön esim. $ sudo salt '*' state.single user.present terote01
+
+- Koodia voidaan myös kirjoittaa teksti tiedostoon
+- esim. $ sudo mkdir -p /srv/salt/hello
+- $ sudoedit /srv/salt/hello/init.sls
+- Syntaxina on YAML eli tabeja ei voida käyttää.
 - 
 
 
 
 
-# A) Asenna Debian 11 Vagrantilla.
-- Debian ladattu onnistuneesti VM boxiin. 
-![image](https://user-images.githubusercontent.com/105793201/228643756-3686698a-0981-4bf9-b954-a3d44c23ec38.png)
 
+# A) Asenna Debian 11 Vagrantilla.
+![image](https://user-images.githubusercontent.com/105793201/228643756-3686698a-0981-4bf9-b954-a3d44c23ec38.png)
+- Debian ladattu onnistuneesti VM boxiin. 
 
 # B) 
 
