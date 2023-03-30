@@ -13,6 +13,11 @@
 - Sivusi on nyt luotu.
 - file h1-suolaa.md luotu github repoon.
 ## Karvinen2023: Salt Vagrant - automatically provision one master and two slaves</h3>
+- Ensiksi asennetaan virtuaali ympäristö komennoilla: 
+$ sudo apt-get update
+$ sudo apt-get -y install virtualbox vagrant micro
+$ mkdir saltdemo; cd saltdemo
+$ micro Vagrantfile
 
 
 # A) Asenna Debian 11 Vagrantilla.
