@@ -12,14 +12,16 @@ Register to Github
 - And your page is published.
 - Github repository tehty.
 - file h1-suolaa.md luotu github repoon.
-<h3> Karvinen2023: Salt Vagrant - automatically provision one master and two slaves</h3>
+## Karvinen2023: Salt Vagrant - automatically provision one master and two slaves</h3>
 
-# A)
+
+# A) Asenna Debian 11 Vagrantilla.
 - Debian ladattu onnistuneesti VM boxiin. 
 ![image](https://user-images.githubusercontent.com/105793201/228643756-3686698a-0981-4bf9-b954-a3d44c23ec38.png)
 
 
 # B) 
+
 
 
  ## References
