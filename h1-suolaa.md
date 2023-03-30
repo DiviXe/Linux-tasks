@@ -1,6 +1,10 @@
 # Tehtävä 1 h1-suolaa 
 
 (Läksyn lukijalle tosiaan ensimmäinen kertani Linuxin parissa.) 
+
+# X) Lue ja tiivistä.
+
+<h2>Create a Web Page Using Github</h2>
 - Github repository tehty.
 - file h1-suolaa.md luotu github repoon.
 
