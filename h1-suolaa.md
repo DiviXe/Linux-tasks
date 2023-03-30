@@ -4,8 +4,8 @@
 
 # X) Lue ja tiivistä.
 
-<h3>Karvinen2023: Create a Web Page Using Github</h3>
-- Register to Github
+## Karvinen2023: Create a Web Page Using Github</h3>
+Register to Github
 - Create a new repository (add README.md file when creating)
 - Add an .md file for your web page
 - Write some text, commit.
