@@ -5,12 +5,12 @@
 # X) Lue ja tiivistä.
 
 ## Karvinen2023: Create a Web Page Using Github</h3>
-Register to Github
-- Create a new repository (add README.md file when creating)
-- Add an .md file for your web page
-- Write some text, commit.
-- And your page is published.
-- Github repository tehty.
+- Registeröidy Githubiin
+- Luo oma repositorysi ylänurkasta
+-  (lisää README.md tiedosto repositoryn sisään)
+- lisää .md loppu tiedostosi perään
+- kirjoita tekstiä ja commit.
+- Sivusi on nyt luotu.
 - file h1-suolaa.md luotu github repoon.
 ## Karvinen2023: Salt Vagrant - automatically provision one master and two slaves</h3>
 
