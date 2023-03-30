@@ -47,7 +47,10 @@
 ![image](https://user-images.githubusercontent.com/105793201/228643756-3686698a-0981-4bf9-b954-a3d44c23ec38.png)
 - Debian ladattu onnistuneesti VM boxiin. 
 
-# B) 
+# B) Asenna artikkelissa (Karvinen 2023) kuvattu kolmen koneen verkko
+
+Ensiksi tuli erroreita, kyse olikin siitä, että Virtualbox ei ollut asennettu kunnolla. 
+![image](https://user-images.githubusercontent.com/105793201/228932436-12349995-28c5-4b81-91b4-3f5a9ab48420.png)
 
 
 
