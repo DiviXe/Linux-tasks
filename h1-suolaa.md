@@ -55,8 +55,11 @@ Debian11 meni nyt niin solmuun, että on pakko tehdä uusi virtuaalikone.
 - Kaikki asennukset tehty uudestaan
 ![image](https://user-images.githubusercontent.com/105793201/229061525-2a055ffc-e3a0-4c65-ad61-6e5c1ce07824.png)
 
+-Asennusten jälkeen lataukset toimii, paitsi nyt vagrantfilessä on ongelma
+![image](https://user-images.githubusercontent.com/105793201/229091362-5b7c838f-2bac-4ca9-9f90-699f23cd9edf.png)
 
- ## References
+ ## Refe
+ rences
  
  Karvinen 2023: https://terokarvinen.com/2023/create-a-web-page-using-github/, 
  https://terokarvinen.com/2020/command-line-basics-revisited/, 
