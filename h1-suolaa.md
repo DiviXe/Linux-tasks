@@ -52,6 +52,8 @@ Erroreita, ongelma on siinä, että virtualbox ei ole asennettu kunnolla tai jok
 Debian11 meni nyt niin solmuun, että on pakko tehdä uusi virtuaalikone. 
 ![image](https://user-images.githubusercontent.com/105793201/228932436-12349995-28c5-4b81-91b4-3f5a9ab48420.png)
 
+- Kaikki asennukset tehty uudestaan
+![image](https://user-images.githubusercontent.com/105793201/229061525-2a055ffc-e3a0-4c65-ad61-6e5c1ce07824.png)
 
 
  ## References
