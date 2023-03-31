@@ -49,7 +49,8 @@
 
 # B) Asenna artikkelissa (Karvinen 2023) kuvattu kolmen koneen verkko
 
-Ensiksi tuli erroreita, kyse olikin siitä, että Virtualbox ei ollut asennettu kunnolla. 
+Erroreita, ongelma on siinä, että virtualbox ei ole asennettu kunnolla tai joku versio ei ole yhteensopiva.
+- Debian meni nyt niin solmuun, että on pakko tehdä uusi virtuaalikone. 
 ![image](https://user-images.githubusercontent.com/105793201/228932436-12349995-28c5-4b81-91b4-3f5a9ab48420.png)
 
 
