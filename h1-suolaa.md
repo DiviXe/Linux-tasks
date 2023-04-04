@@ -48,8 +48,7 @@
 
 # B) Asenna artikkelissa (Karvinen 2023) kuvattu kolmen koneen verkko
 
-Erroreita, ongelma on siinä, että virtualbox ei ole asennettu kunnolla tai joku versio ei ole yhteensopiva.
-Debian11 meni nyt niin solmuun, että on pakko tehdä uusi virtuaalikone. 
+Erroreita, ongelma on siinä, että virtualbox ei ole asennettu kunnolla tai joku versio ei ole yhteensopiva. 
 ![image](https://user-images.githubusercontent.com/105793201/228932436-12349995-28c5-4b81-91b4-3f5a9ab48420.png)
 
 - Kaikki asennukset tehty uudestaan
