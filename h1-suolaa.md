@@ -67,6 +67,10 @@ Erroreita, ongelma on siinä, että virtualbox ei ole asennettu kunnolla tai jok
 ![image](https://user-images.githubusercontent.com/105793201/229898216-ab1709c5-ad12-45a7-a618-13b300f537ce.png)
 - Error on edelleen sama "Code E_ACCESSDENIED (0x90070005) , yritetään ratkaista asiaa
 
+- koneet käyttävät nyt eri ip-osoiteavaruutta kuin määrittelyssä, eli muokattiin osoitteet 192.168.12.0/24 -> 192.168.56.9/24 muotoisiksi.
+- Nyt ilmeni uusi virhe, "VBoxManage VT-X is not available, tämä liittyisi virtualisointiin. 
+- ![image](https://user-images.githubusercontent.com/105793201/229913974-bf4db634-2138-439e-8b64-d9e91997799b.png)
+
  ## References
  
  Karvinen 2023: https://terokarvinen.com/2023/create-a-web-page-using-github/, 
