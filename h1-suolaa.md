@@ -62,7 +62,7 @@ Erroreita, ongelma on siinä, että virtualbox ei ole asennettu kunnolla tai jok
 - 6.1 latauksen jälkeen tämä error tulee. 
 - Yritin löytää netistä tietoa, jotkut sanoivat, että tämä ongelma liityy virtualboxin asetuksiin.  
 
-# B) Yritetään saada virtuaalikoneet päälle uudestaan komennolla .. 4.4.2023 22:20
+# B) Yritetään saada virtuaalikoneet päälle uudestaan komennolla vagrant up .. 4.4.2023 22:20
 
 ![image](https://user-images.githubusercontent.com/105793201/229898216-ab1709c5-ad12-45a7-a618-13b300f537ce.png)
 - Error on edelleen sama "Code E_ACCESSDENIED (0x90070005) , yritetään ratkaista asiaa
