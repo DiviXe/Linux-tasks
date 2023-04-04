@@ -70,6 +70,8 @@ Erroreita, ongelma on siinä, että virtualbox ei ole asennettu kunnolla tai jok
 - koneet käyttävät nyt eri ip-osoiteavaruutta kuin määrittelyssä, eli muokattiin osoitteet 192.168.12.0/24 -> 192.168.56.9/24 muotoisiksi.
 - Nyt ilmeni uusi virhe, "VBoxManage VT-X is not available, tämä liittyisi virtualisointiin. 
 - ![image](https://user-images.githubusercontent.com/105793201/229913974-bf4db634-2138-439e-8b64-d9e91997799b.png)
+# Yritin uudelleen asentaa virtualboxia, mutta ei toiminut, siirryn nyt kokeilemaan windows powershelliä huomenna, 5.4.2023 0.09
+- 
 
  ## References
  
