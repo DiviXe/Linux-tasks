@@ -82,6 +82,12 @@ Erroreita, ongelma on siinä, että virtualbox ei ole asennettu kunnolla tai jok
 - Kirjaudutaan pääkäyttäjälle ja hyväksytään orjat
 - vagrant ssh tmaster
 - $ sudo salt-key -A
+- -![image](https://user-images.githubusercontent.com/105793201/230015024-faa4854c-2d09-48bb-93bc-b85dd6da9730.png)
+-![image](https://user-images.githubusercontent.com/105793201/230015737-1730ed8c-a120-49e3-af8c-3cd76c3bafaa.png)
+
+- Testataan vastaavatko orjat takaisin masterilla pingaamalla koneita, eli sanomalla HEI oletteko siellä. 
+- ![image](https://user-images.githubusercontent.com/105793201/230016775-4d1ff4c3-5002-4d84-8fa2-927bcfc3e981.png)
+- Vastaus on True eli kyllä ollaan.
 
 # D) Näytä esimerkit seuraavista tiloista: package, file, service, user, cmd.run. (voit käyttää state.single)
 - Ensiksi keräsin tietoa koodilla **$ sudo salt '*' grains.item osfinger ipv4**
@@ -92,16 +98,7 @@ Erroreita, ongelma on siinä, että virtualbox ei ole asennettu kunnolla tai jok
 - Asennus onnistui täydellisesti ja tämän jälkeen kokeilin vielä asentaa uudestaan, ettei mikään ole muuttunut. 
 - ![image](https://user-images.githubusercontent.com/105793201/230022603-5febd0e7-d123-4f70-afa0-a3854798dc75.png)
 - kaikki ovat **idempotenttisia.** 
-- ![image](https://user-images.githubusercontent.com/105793201/230022761-14ffc376-ed19-4f8f-94d4-cb20767dad86.png)
-
-
-
--![image](https://user-images.githubusercontent.com/105793201/230015024-faa4854c-2d09-48bb-93bc-b85dd6da9730.png)
--![image](https://user-images.githubusercontent.com/105793201/230015737-1730ed8c-a120-49e3-af8c-3cd76c3bafaa.png)
-
-- Testataan vastaavatko orjat takaisin masterilla pingaamalla koneita, eli sanomalla HEI oletteko siellä. 
-- ![image](https://user-images.githubusercontent.com/105793201/230016775-4d1ff4c3-5002-4d84-8fa2-927bcfc3e981.png)
-- Vastaus on True eli kyllä ollaan. 
+- ![image](https://user-images.githubusercontent.com/105793201/230022761-14ffc376-ed19-4f8f-94d4-cb20767dad86.png) 
 
  ## References
  
