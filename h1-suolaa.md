@@ -83,6 +83,18 @@ Erroreita, ongelma on siinä, että virtualbox ei ole asennettu kunnolla tai jok
 - vagrant ssh tmaster
 - $ sudo salt-key -A
 
+# D) Näytä esimerkit seuraavista tiloista: package, file, service, user, cmd.run. (voit käyttää state.single)
+- Ensiksi keräsin tietoa koodilla **$ sudo salt '*' grains.item osfinger ipv4**
+- Ipv4 osoitteet näkyi ja käyttöjärjestelmät. 
+- ![image](https://user-images.githubusercontent.com/105793201/230021313-e7d33198-0adc-4100-aa12-4e10e44c7444.png)
+
+- asensin apache packagen molempiin virtuaalikoneisiin komennolla **$ sudo salt '*' state.single pkg.installed apache2**. 
+- Asennus onnistui täydellisesti ja tämän jälkeen kokeilin vielä asentaa uudestaan, ettei mikään ole muuttunut. 
+- ![image](https://user-images.githubusercontent.com/105793201/230022603-5febd0e7-d123-4f70-afa0-a3854798dc75.png)
+- kaikki ovat **idempotenttisia.** 
+- ![image](https://user-images.githubusercontent.com/105793201/230022761-14ffc376-ed19-4f8f-94d4-cb20767dad86.png)
+
+
 
 ![image](https://user-images.githubusercontent.com/105793201/230015024-faa4854c-2d09-48bb-93bc-b85dd6da9730.png)
 ![image](https://user-images.githubusercontent.com/105793201/230015737-1730ed8c-a120-49e3-af8c-3cd76c3bafaa.png)
