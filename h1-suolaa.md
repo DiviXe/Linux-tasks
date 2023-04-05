@@ -109,11 +109,19 @@ Erroreita, ongelma on siinä, että virtualbox ei ole asennettu kunnolla tai jok
 - komennolla **sudo salt '*' state.single user.present user123** on luotu koneille t001 ja t002 
 - ![image](https://user-images.githubusercontent.com/105793201/230048620-65e6a59d-afcb-41cd-b854-59f1cf91349f.png)
 
-- Kutsun käyttäjää t002 kertomaan minulle ip osoitteensa cmd-run toiminnolla. **sudo salt 't002' state.single cdm.run 'hostname -I'**
+- Kutsun käyttäjää t002 kertomaan minulle ip osoitteensa cmd-run toiminnolla. **sudo salt 't001' state.single cdm.run 'hostname -I'**
+- ![image](https://user-images.githubusercontent.com/105793201/230050314-4b8fc2f6-4b07-473c-88f5-3b63a42fc65a.png)
 - komento toimi moitteettomasti
-![image](https://user-images.githubusercontent.com/105793201/230050314-4b8fc2f6-4b07-473c-88f5-3b63a42fc65a.png)
 
 # E) infraa koodina  
+- Loin tiedoston **$ sudo mkdir -p /srv/salt/hello**
+- ja muokkasin sitä koodilla **$ sudoedit /srv/salt/hello/init.sls**
+- tämän jälkeen kirjotin **$ cat /srv/salt/hello/init.sls ** josta näin kyseisen koodin.
+- ![image](https://user-images.githubusercontent.com/105793201/230053418-61630ebb-651f-473f-a31b-80c619c8ddfe.png)
+- Nyt luodaan top.sls tiedosto, jossa määritellään, että mitä orjat tekee.
+- 
+
+
 
 ## References
  
