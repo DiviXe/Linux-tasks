@@ -97,11 +97,14 @@ Erroreita, ongelma on siinä, että virtualbox ei ole asennettu kunnolla tai jok
 - asensin apache packagen molempiin virtuaalikoneisiin komennolla **$ sudo salt '*' state.single pkg.installed apache2**. 
 - Asennus onnistui täydellisesti ja tämän jälkeen kokeilin vielä asentaa uudestaan, ettei mikään ole muuttunut. 
 - ![image](https://user-images.githubusercontent.com/105793201/230022603-5febd0e7-d123-4f70-afa0-a3854798dc75.png)
-- kaikki ovat **idempotenttisia.** 
 - ![image](https://user-images.githubusercontent.com/105793201/230022761-14ffc376-ed19-4f8f-94d4-cb20767dad86.png) 
+- kaikki ovat **idempotenttisia.** 
+- Sammutin apachen komennolla **sudo salt '*' state.single service.dead apache2** ja testasin saman idempotenttisuuden (en laita tähän nyt kahta kertaa samaa kuvaa). 
+- ![image](https://user-images.githubusercontent.com/105793201/230024832-40df5bb8-a746-4a80-a2e5-7e31db372a9b.png)
 
- ## References
+
+## References
  
  Karvinen 2023: https://terokarvinen.com/2023/create-a-web-page-using-github/, 
- https://terokarvinen.com/2020/command-line-basics-revisited/, 
- https://terokarvinen.com/2023/salt-vagrant/
+ Karvinen 2023: https://terokarvinen.com/2020/command-line-basics-revisited/, 
+ Karvinen 2023: https://terokarvinen.com/2023/salt-vagrant/
