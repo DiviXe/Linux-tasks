@@ -73,7 +73,7 @@ Erroreita, ongelma on siinä, että virtualbox ei ole asennettu kunnolla tai jok
 # Yritin uudelleen asentaa virtualboxia, mutta ei toiminut, siirryn nyt kokeilemaan windows powershelliä huomenna, 5.4.2023 0.09
 - Uusi päivä testataan windowsin powershellin kanssa.
 
-# Vóila! virtuaalikoneiden asennus onnistui!
+# Vóila! virtuaalikoneiden asennus onnistui! 5.4.2023 11.05
 
 ![image](https://user-images.githubusercontent.com/105793201/230014491-ec1f4305-188d-426c-91ee-822846cb838f.png)
 
@@ -101,7 +101,19 @@ Erroreita, ongelma on siinä, että virtualbox ei ole asennettu kunnolla tai jok
 - kaikki ovat **idempotenttisia.** 
 - Sammutin apachen komennolla **sudo salt '*' state.single service.dead apache2** ja testasin saman idempotenttisuuden (en laita tähän nyt kahta kertaa samaa kuvaa). 
 - ![image](https://user-images.githubusercontent.com/105793201/230024832-40df5bb8-a746-4a80-a2e5-7e31db372a9b.png)
+## testi kansion luominen 
+- tein testi kansion komennolla **sudo salt '*' state.single file.managed '/tmp/testi'**
+- ![image](https://user-images.githubusercontent.com/105793201/230026390-5baa312a-2484-4d86-a8a4-37172c7c374a.png)
 
+## Käyttäjän luominen (user) 
+- komennolla **sudo salt '*' state.single user.present user123** on luotu koneille t001 ja t002 
+- ![image](https://user-images.githubusercontent.com/105793201/230048620-65e6a59d-afcb-41cd-b854-59f1cf91349f.png)
+
+- Kutsun käyttäjää t002 kertomaan minulle ip osoitteensa cmd-run toiminnolla. **sudo salt 't002' state.single cdm.run 'hostname -I'**
+- komento toimi moitteettomasti
+![image](https://user-images.githubusercontent.com/105793201/230050314-4b8fc2f6-4b07-473c-88f5-3b63a42fc65a.png)
+
+# E) infraa koodina  
 
 ## References
  
