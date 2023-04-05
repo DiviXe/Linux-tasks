@@ -71,7 +71,19 @@ Erroreita, ongelma on siinä, että virtualbox ei ole asennettu kunnolla tai jok
 - Nyt ilmeni uusi virhe, "VBoxManage VT-X is not available, tämä liittyisi virtualisointiin. 
 - ![image](https://user-images.githubusercontent.com/105793201/229913974-bf4db634-2138-439e-8b64-d9e91997799b.png)
 # Yritin uudelleen asentaa virtualboxia, mutta ei toiminut, siirryn nyt kokeilemaan windows powershelliä huomenna, 5.4.2023 0.09
-- 
+- Uusi päivä testataan windowsin powershellin kanssa.
+
+# Vóila! virtuaalikoneiden asennus onnistui!
+![image](https://user-images.githubusercontent.com/105793201/230014491-ec1f4305-188d-426c-91ee-822846cb838f.png)
+
+# C) Hyväksytään orjat ja testataan yhteys.
+
+- Kirjaudutaan pääkäyttäjälle
+![image](https://user-images.githubusercontent.com/105793201/230015024-faa4854c-2d09-48bb-93bc-b85dd6da9730.png)
+
+
+
+
 
  ## References
  
