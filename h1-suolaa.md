@@ -126,7 +126,7 @@ Erroreita, ongelma on siinä, että virtualbox ei ole asennettu kunnolla tai jok
 - echona näkyy "hello world!" 
 - ![image](https://user-images.githubusercontent.com/105793201/230056714-cd13ba2f-eabe-459e-8bb4-7e54b375e042.png)
 
-# Lopuksi lähdetään pois komennolla $exit ja tuhotaan koneet $vagrant destroy
+# Lopuksi lähdetään pois komennolla $exit ja tuhotaan koneet $vagrant destroy, tehtävä oli uudestaan valmis klo 13.38 5.4.2023 
 
 
 ## References
