@@ -74,14 +74,13 @@ Erroreita, ongelma on siinä, että virtualbox ei ole asennettu kunnolla tai jok
 - Uusi päivä testataan windowsin powershellin kanssa.
 
 # Vóila! virtuaalikoneiden asennus onnistui!
+
 ![image](https://user-images.githubusercontent.com/105793201/230014491-ec1f4305-188d-426c-91ee-822846cb838f.png)
 
 # C) Hyväksytään orjat ja testataan yhteys.
-
-- Kirjaudutaan pääkäyttäjälle
+- Kirjaudutaan pääkäyttäjälle ja hyväksytään orjat 
 ![image](https://user-images.githubusercontent.com/105793201/230015024-faa4854c-2d09-48bb-93bc-b85dd6da9730.png)
-
-
+![image](https://user-images.githubusercontent.com/105793201/230015737-1730ed8c-a120-49e3-af8c-3cd76c3bafaa.png)
 
 
 
