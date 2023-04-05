@@ -118,9 +118,15 @@ Erroreita, ongelma on siinä, että virtualbox ei ole asennettu kunnolla tai jok
 - ja muokkasin sitä koodilla **$ sudoedit /srv/salt/hello/init.sls**
 - tämän jälkeen kirjotin **$ cat /srv/salt/hello/init.sls ** josta näin kyseisen koodin.
 - ![image](https://user-images.githubusercontent.com/105793201/230053418-61630ebb-651f-473f-a31b-80c619c8ddfe.png)
-- Nyt luodaan top.sls tiedosto, jossa määritellään, että mitä orjat tekee.
-- 
 
+- Nyt luodaan top.sls tiedosto **$ sudoedit /srv/salt/top.sls, jossa määritellään, että mitä orjat tekee ja katsotaan sisältö **$ cat /srv/salt/top.sls**.
+- ![image](https://user-images.githubusercontent.com/105793201/230054205-6d453d2c-9e74-429b-bfb4-042a3fe4ffd9.png)
+
+- lopuksi tehdään **sudo salt'*' state.apply**, joka ajaa komennot ja katsotaan mitä tapahtuu.
+- echona näkyy "hello world!" 
+- ![image](https://user-images.githubusercontent.com/105793201/230056714-cd13ba2f-eabe-459e-8bb4-7e54b375e042.png)
+
+# Lopuksi lähdetään pois komennolla $exit ja tuhotaan koneet $vagrant destroy
 
 
 ## References
