@@ -1,4 +1,4 @@
 # Linux-tasks
-## Kotitehtävät Leo Ahopalo
+## Kotitehtävät
 
 - Working on linux task Salt
