@@ -87,7 +87,9 @@ Erroreita, ongelma on siinä, että virtualbox ei ole asennettu kunnolla tai jok
 ![image](https://user-images.githubusercontent.com/105793201/230015024-faa4854c-2d09-48bb-93bc-b85dd6da9730.png)
 ![image](https://user-images.githubusercontent.com/105793201/230015737-1730ed8c-a120-49e3-af8c-3cd76c3bafaa.png)
 
-
+- Testataan vastaavatko orjat takaisin masterilla pingaamalla koneita, eli sanomalla HEI oletteko siellä. 
+- ![image](https://user-images.githubusercontent.com/105793201/230016775-4d1ff4c3-5002-4d84-8fa2-927bcfc3e981.png)
+- Vastaus on True eli kyllä ollaan. 
 
  ## References
  
