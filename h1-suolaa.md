@@ -57,7 +57,7 @@ Erroreita, ongelma on siinä, että virtualbox ei ole asennettu kunnolla tai jok
 -Asennusten jälkeen lataukset toimii, paitsi nyt vagrantfilessä Code_EACCESS DENIED Error 
 
 - ongelma tulee kun yrittää saada virtuaalikoneet päälle kirjoittamalla "vagrant up" 
-![image](https://user-images.githubusercontent.com/105793201/229091362-5b7c838f-2bac-4ca9-9f90-699f23cd9edf.png)
+-![image](https://user-images.githubusercontent.com/105793201/229091362-5b7c838f-2bac-4ca9-9f90-699f23cd9edf.png)
 - kokeiltu virtualboxia 7.0, herjaa error, että vagrantfile toimii vain virtualbox 6.1 tai vanhemmalla versiolla.
 - 6.1 latauksen jälkeen tämä error tulee. 
 - Yritin löytää netistä tietoa, jotkut sanoivat, että tämä ongelma liityy virtualboxin asetuksiin.  
@@ -96,8 +96,8 @@ Erroreita, ongelma on siinä, että virtualbox ei ole asennettu kunnolla tai jok
 
 
 
-![image](https://user-images.githubusercontent.com/105793201/230015024-faa4854c-2d09-48bb-93bc-b85dd6da9730.png)
-![image](https://user-images.githubusercontent.com/105793201/230015737-1730ed8c-a120-49e3-af8c-3cd76c3bafaa.png)
+-![image](https://user-images.githubusercontent.com/105793201/230015024-faa4854c-2d09-48bb-93bc-b85dd6da9730.png)
+-![image](https://user-images.githubusercontent.com/105793201/230015737-1730ed8c-a120-49e3-af8c-3cd76c3bafaa.png)
 
 - Testataan vastaavatko orjat takaisin masterilla pingaamalla koneita, eli sanomalla HEI oletteko siellä. 
 - ![image](https://user-images.githubusercontent.com/105793201/230016775-4d1ff4c3-5002-4d84-8fa2-927bcfc3e981.png)
