@@ -22,4 +22,15 @@
 - yritin katsoa manuualista miten portti vaihdetaan ja kokeilin komentoa** sudo sshd -p 8888**, mutta se ei toiminut.
 - menin sitten ssh tiedostoon **sudo nano/etc/ssh/sshd config ** ja muutin portiksi 8888. 
 - ![image](https://user-images.githubusercontent.com/105793201/230333864-473afefa-b115-4ff9-be4e-30105a3e3f27.png)
+-	Tämän jälkeen uudelleen käynnistän SSH demonin komennolla **sudo systemctl restart sshd**
+- Testasin, että mikä meininki on ssh:ssä komennolla sudo systemctl status ssh ja port 8888 näyttää olevan auki. 
+- ![image](https://user-images.githubusercontent.com/105793201/230335015-3e4b0aeb-d3b4-4774-8c30-ada936afce30.png)
+- testataan windowsilla saadaanko yhteys!
+- Pingaus f001 virtuaalikoneeseen ainakin toimii.
+- ![image](https://user-images.githubusercontent.com/105793201/230335224-34cebaf0-2c6e-4a51-94b4-c935bcf882bb.png)
+- kokeillaan ssh (virtuaaliyhteys) komennolla **-p 8888 vagrant@192.168.12.100**
+- sisälle päästiin!
+- ![image](https://user-images.githubusercontent.com/105793201/230335449-0dd06f43-c2a8-49c0-b2c9-9aaefb508b73.png)
 
+## B) Automatisoi äsken tekemäsi SSH-konfiguraatio Saltilla.
+- tulossa 
