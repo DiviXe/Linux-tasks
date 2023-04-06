@@ -6,7 +6,7 @@
 - Asenna ohjelmisto, vaihda asetustitiedosto ja lopuksi käynnistä demoni uudelleen käyttääksesi uutta kokoonpanoa (Tässä tilanteessa porttia). 
 - Artikeli kertoo yksinkertiasen saltstaten SSh-palvelin portin muuttamiseksi
 - master käyttäjällä luodaan state (sshd.sls) ja määritystiedoston pääkopio (sshd_config). 
-- tehdään komento ** $ cat /srv/salt/sshd.sls** ja laitetaan paketit kuntoon. 
+- tehdään komento **$ cat /srv/salt/sshd.sls** ja laitetaan paketit kuntoon. 
 - vaihdetaan #port22 portiksi 8888 ja tallenetaan tiedosto.
 - tallennetaan muutokset **$ sudo salt '*' state.apply sshd**
 - testataan toimivuutta esimerkiksi **$ $ ssh -p 8888 tero@tero.example.com**
@@ -19,7 +19,7 @@
 - käynnistin koneen uudestaan komennolla **shutdown**
 - ja perään asensin sen uudestaan komennolla **sudo apt install openssh-server**
 - ![image](https://user-images.githubusercontent.com/105793201/230332776-e829e58b-fb4a-43e8-8c10-256d261cd81b.png)
-- yritin katsoa manuualista miten portti vaihdetaan ja kokeilin komentoa** sudo sshd -p 8888**, mutta se ei toiminut.
+- yritin katsoa manuualista miten portti vaihdetaan ja kokeilin komentoa **sudo sshd -p 8888**, mutta se ei toiminut.
 - menin sitten ssh tiedostoon **sudo nano/etc/ssh/sshd config ** ja muutin portiksi 8888. 
 - ![image](https://user-images.githubusercontent.com/105793201/230333864-473afefa-b115-4ff9-be4e-30105a3e3f27.png)
 -	Tämän jälkeen uudelleen käynnistän SSH demonin komennolla **sudo systemctl restart sshd**
