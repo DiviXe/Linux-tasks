@@ -33,4 +33,19 @@
 - ![image](https://user-images.githubusercontent.com/105793201/230335449-0dd06f43-c2a8-49c0-b2c9-9aaefb508b73.png)
 
 ## B) Automatisoi äsken tekemäsi SSH-konfiguraatio Saltilla.
-- tulossa 
+- Hypätään takaisin master käyttäjälle komennolla **exit**
+- tämän jälkeen otetaan yhteys masteriin komennolla **vagrant ssh tmaster**
+- ![image](https://user-images.githubusercontent.com/105793201/230591855-66da64ef-405b-4f39-96c0-46be843f7598.png)
+- luodaan uusikansio salttiin komennolla **sudo mkdir -p /srv/salt/**
+- mennään sen luo komennolla **cd /srv/salt**
+- ![image](https://user-images.githubusercontent.com/105793201/230592232-ea05a878-a869-4cab-bb1d-1d870804aed0.png)
+- editoidaan tiedostoa, liitetään SSH state (tila) ja kopiodaan Tero Karvisen koodi.
+- **sudoedit sshd.sls**
+- ![image](https://user-images.githubusercontent.com/105793201/230592371-a2d2fc02-14d9-4283-b6dd-74f19cc99b9d.png)
+- mennään takaisin hakemistoon /etc/ssh komennolla **cd /etc/ssh**
+- muutetaan ssh.configin porttia samaksi, mikä f001 koneella oli eli 8888 
+- ![image](https://user-images.githubusercontent.com/105793201/230593896-254659f8-3c8d-4e88-a498-46c4720e3340.png)
+- kokeillaan save tuli error viesti no minions matched the target. 
+- ![image](https://user-images.githubusercontent.com/105793201/230593972-75ba0974-41d3-4a5d-b21b-17c943a1f34d.png)
+
+
