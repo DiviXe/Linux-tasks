@@ -20,7 +20,7 @@
 - ja perään asensin sen uudestaan komennolla **sudo apt install openssh-server**
 - ![image](https://user-images.githubusercontent.com/105793201/230332776-e829e58b-fb4a-43e8-8c10-256d261cd81b.png)
 - yritin katsoa manuualista miten portti vaihdetaan ja kokeilin komentoa **sudo sshd -p 8888**, mutta se ei toiminut.
-- menin sitten ssh tiedostoon **sudo nano/etc/ssh/sshd config ** ja muutin portiksi 8888. 
+- menin sitten ssh tiedostoon **nano/etc/ssh/sshd config** ja muutin portiksi 8888. 
 - ![image](https://user-images.githubusercontent.com/105793201/230333864-473afefa-b115-4ff9-be4e-30105a3e3f27.png)
 -	Tämän jälkeen uudelleen käynnistän SSH demonin komennolla **sudo systemctl restart sshd**
 - Testasin, että mikä meininki on ssh:ssä komennolla sudo systemctl status ssh ja port 8888 näyttää olevan auki. 
