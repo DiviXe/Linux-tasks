@@ -47,5 +47,23 @@
 - ![image](https://user-images.githubusercontent.com/105793201/230593896-254659f8-3c8d-4e88-a498-46c4720e3340.png)
 - kokeillaan save tuli error viesti no minions matched the target. 
 - ![image](https://user-images.githubusercontent.com/105793201/230593972-75ba0974-41d3-4a5d-b21b-17c943a1f34d.png)
+- ongelmana oli, että en ollut hyväksynyt salt keytä t001 ja t002. 
+- ![image](https://user-images.githubusercontent.com/105793201/230793363-edbffc6b-68c6-4738-a54c-9b1e2c1148c3.png)
+- Lisää ongelmia: 
+- ![image](https://user-images.githubusercontent.com/105793201/230793499-92c134da-c2be-4ff2-981c-c878d0593db6.png)
+- Ongelmana oli, että srv/salt kansiossa ei ole sshd_config tiedostoa, joten lähdin luomaan kyseistä kansiota
+- ![image](https://user-images.githubusercontent.com/105793201/230793711-3b9b64d8-1897-42c6-9fee-f7b057b12635.png)
+- Luotiin kansio srv/salt{files,states} komennolla **sudo mkdir -p /srv/salt/{files,states}**
+- Luotiin kansio sshd ja lisättiin sshd_config tiedostoon **sudo cp /etc/ssh/sshd_config /srv/salt/files/sshd/**
+- Katsottiin yhteensopivuus komennolla sudo **chmod 644 /srv/salt/files/sshd/sshd_config**
+- Tämän jälkeen katsottiin, että tiedosto oikeasti on siellä ja muokattiin tiedosto samanlaiseksi kuin edellisissä kuvissa. 
+- **$ sudo ls /srv/salt/**
+- **$ sudo salt '*' state.apply sshd** tallennuksen jälkeen muille virtuaalikoneille muutos onnistui!
+- ![image](https://user-images.githubusercontent.com/105793201/230793872-c77d6f87-9c5c-4f6f-85df-5254dfa0d609.png)
+- ![image](https://user-images.githubusercontent.com/105793201/230793878-90cd84e3-b32d-497f-9cbb-91313071e5c6.png)
+- Kokeillaan idempotenttisuus.
+- ![image](https://user-images.githubusercontent.com/105793201/230793890-bc4972ac-01fa-41ae-bb66-b57c9b86925b.png)
+- Mikään ei enään muuttunut. 
+
 
 
