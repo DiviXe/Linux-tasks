@@ -64,6 +64,10 @@
 - Kokeillaan idempotenttisuus.
 - ![image](https://user-images.githubusercontent.com/105793201/230793890-bc4972ac-01fa-41ae-bb66-b57c9b86925b.png)
 - Mikään ei enään muuttunut. 
+- Kokeillaan yhteys seuraavaksi.
+- Katsotaan T001 tietokoneiden IP osoitteet testiä varten.
+- ![image](https://user-images.githubusercontent.com/105793201/230793992-b57f9c2f-257b-4442-9f8a-200f1c4dcaf8.png)
+- 
 
 
 
