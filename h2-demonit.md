@@ -67,7 +67,10 @@
 - Kokeillaan yhteys seuraavaksi.
 - Katsotaan T001 tietokoneiden IP osoitteet testiä varten.
 - ![image](https://user-images.githubusercontent.com/105793201/230793992-b57f9c2f-257b-4442-9f8a-200f1c4dcaf8.png)
-- 
+- Testataan yhteys koneeseen t001 komennolla **$ ssh -p 8888 vagrant@192.168.12.100**
+- ![image](https://user-images.githubusercontent.com/105793201/230794446-ca7d2c97-0954-43b6-af6f-0ae1d3e4e29a.png)
+- Sisään päästiin!
+
 
 
 
