@@ -83,7 +83,7 @@
 - kommentiksi tulee, että the service sshd is already running eli vain jos sshd_config tiedostoa muutetaan niin sshd palvelin uudelleenkäynnistyy.
 -  Kokeillaan portin toimivuus
 -  ![image](https://user-images.githubusercontent.com/105793201/230854141-d07ef9ed-5a20-422e-a39e-0706d36aa06a.png)
--  Yhteyttä ei saatu yhdistettyä, kokeillaan vaihtaa palomuurin asetuksia.
+-  Yhteyttä ei saatu yhdistettyä, kokeillaan vaihtaa palomuurin asetuksia, (kyseessä olikin väärä IP-osoite).
 -  ![image](https://user-images.githubusercontent.com/105793201/230855073-ad693ca1-d11f-49b7-8d82-0463ab7ce4c8.png)
 - sisälle päästiin!
 
