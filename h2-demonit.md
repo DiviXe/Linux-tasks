@@ -71,7 +71,11 @@
 - Testataan yhteys koneeseen t001 komennolla **$ ssh -p 8888 vagrant@192.168.12.100**
 - ![image](https://user-images.githubusercontent.com/105793201/230794446-ca7d2c97-0954-43b6-af6f-0ae1d3e4e29a.png)
 - Sisään päästiin!
+## C) Tee jokin muu asetus äsken tekemääsi SSH-palveluun. Osoita testein, että Salt käynnistää demonin uudelleen, kun asetustiedosto on muuttunut (jolloin uudet asetukset tulevat voimaan).
 
+# References:
+- https://terokarvinen.com/2023/palvelinten-hallinta-2023-kevat/, Tero karvinen
+- https://terokarvinen.com/2018/pkg-file-service-control-daemons-with-salt-change-ssh-server-port/?fromSearch=salt%20ssh, Tero karvinen
 
 
 
