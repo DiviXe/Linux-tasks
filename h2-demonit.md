@@ -78,9 +78,18 @@
 - ![image](https://user-images.githubusercontent.com/105793201/230853277-ed7656fc-0fed-4b5e-8b18-f1f5d33565db.png)
 - ![image](https://user-images.githubusercontent.com/105793201/230853316-55234a6b-89bf-4fca-be38-b080db0df84c.png)
 - SSH service on tämän jälkeen uudelleen käynnistetty. 
+- Ajetaampas komento uudestaan ilman tekemättä muutoksia.
+- ![image](https://user-images.githubusercontent.com/105793201/230853561-2488e308-57b1-4556-b242-ef39c6b0ae31.png)
+- kommentiksi tulee, että the service sshd is already running eli vain jos sshd_config tiedostoa muutetaan niin sshd palvelin uudelleenkäynnistyy.
+-  Kokeillaan portin toimivuus
+-  ![image](https://user-images.githubusercontent.com/105793201/230854141-d07ef9ed-5a20-422e-a39e-0706d36aa06a.png)
+-  Yhteyttä ei saatu yhdistettyä, kokeillaan vaihtaa palomuurin asetuksia.
+-  ![image](https://user-images.githubusercontent.com/105793201/230855073-ad693ca1-d11f-49b7-8d82-0463ab7ce4c8.png)
+- sisälle päästiin!
+
 
 # References:
 - https://terokarvinen.com/2023/palvelinten-hallinta-2023-kevat/, Tero karvinen
 - https://terokarvinen.com/2018/pkg-file-service-control-daemons-with-salt-change-ssh-server-port/?fromSearch=salt%20ssh, Tero karvinen
-
+- 
 
