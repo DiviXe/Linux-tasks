@@ -26,9 +26,9 @@
 - Testasin, että mikä meininki on ssh:ssä komennolla sudo systemctl status ssh ja port 8888 näyttää olevan auki. 
 - ![image](https://user-images.githubusercontent.com/105793201/230335015-3e4b0aeb-d3b4-4774-8c30-ada936afce30.png)
 - testataan windowsilla saadaanko yhteys!
-- Pingaus f001 virtuaalikoneeseen ainakin toimii.
+- Pingaus t001 virtuaalikoneeseen ainakin toimii.
 - ![image](https://user-images.githubusercontent.com/105793201/230335224-34cebaf0-2c6e-4a51-94b4-c935bcf882bb.png)
-- kokeillaan ssh (virtuaaliyhteys) komennolla **-p 8888 vagrant@192.168.12.100**
+- kokeillaan ssh (virtuaaliyhteys) komennolla **ssh-p 8888 vagrant@192.168.12.100**
 - sisälle päästiin!
 - ![image](https://user-images.githubusercontent.com/105793201/230335449-0dd06f43-c2a8-49c0-b2c9-9aaefb508b73.png)
 
@@ -43,7 +43,7 @@
 - **sudoedit sshd.sls**
 - ![image](https://user-images.githubusercontent.com/105793201/230592371-a2d2fc02-14d9-4283-b6dd-74f19cc99b9d.png)
 - mennään takaisin hakemistoon /etc/ssh komennolla **cd /etc/ssh**
-- muutetaan ssh.configin porttia samaksi, mikä f001 koneella oli eli 8888 
+- muutetaan ssh.configin porttia samaksi, mikä t001 koneella oli eli 8888 
 - ![image](https://user-images.githubusercontent.com/105793201/230593896-254659f8-3c8d-4e88-a498-46c4720e3340.png)
 - kokeillaan save tuli error viesti no minions matched the target. 
 - ![image](https://user-images.githubusercontent.com/105793201/230593972-75ba0974-41d3-4a5d-b21b-17c943a1f34d.png)
@@ -53,8 +53,9 @@
 - ![image](https://user-images.githubusercontent.com/105793201/230793499-92c134da-c2be-4ff2-981c-c878d0593db6.png)
 - Ongelmana oli, että srv/salt kansiossa ei ole sshd_config tiedostoa, joten lähdin luomaan kyseistä kansiota
 - ![image](https://user-images.githubusercontent.com/105793201/230793711-3b9b64d8-1897-42c6-9fee-f7b057b12635.png)
+- tein prosessin uudestaan varmuuden vuoksi, 
 - Luotiin kansio srv/salt{files,states} komennolla **sudo mkdir -p /srv/salt/{files,states}**
-- Luotiin kansio sshd ja lisättiin sshd_config tiedostoon **sudo cp /etc/ssh/sshd_config /srv/salt/files/sshd/**
+- Luotiin lisäkansio sshd ja kapioidaan sshd_config ssh fileistä srv/salttiin **sudo cp /etc/ssh/sshd_config /srv/salt/files/sshd/**
 - Katsottiin yhteensopivuus komennolla sudo **chmod 644 /srv/salt/files/sshd/sshd_config**
 - Tämän jälkeen katsottiin, että tiedosto oikeasti on siellä ja muokattiin tiedosto samanlaiseksi kuin edellisissä kuvissa. 
 - **$ sudo ls /srv/salt/**
@@ -63,7 +64,7 @@
 - ![image](https://user-images.githubusercontent.com/105793201/230793878-90cd84e3-b32d-497f-9cbb-91313071e5c6.png)
 - Kokeillaan idempotenttisuus.
 - ![image](https://user-images.githubusercontent.com/105793201/230793890-bc4972ac-01fa-41ae-bb66-b57c9b86925b.png)
-- Mikään ei enään muuttunut. 
+- Mikään ei enään muuttunut (mikä on hyvä)
 - Kokeillaan yhteys seuraavaksi.
 - Katsotaan T001 tietokoneiden IP osoitteet testiä varten.
 - ![image](https://user-images.githubusercontent.com/105793201/230793992-b57f9c2f-257b-4442-9f8a-200f1c4dcaf8.png)
