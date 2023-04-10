@@ -72,10 +72,15 @@
 - ![image](https://user-images.githubusercontent.com/105793201/230794446-ca7d2c97-0954-43b6-af6f-0ae1d3e4e29a.png)
 - Sisään päästiin!
 ## C) Tee jokin muu asetus äsken tekemääsi SSH-palveluun. Osoita testein, että Salt käynnistää demonin uudelleen, kun asetustiedosto on muuttunut (jolloin uudet asetukset tulevat voimaan).
+- Ajattelin lisätä kolmannen portin tmasterin sshd_config tiedostoon mikä on salt kansiossa ja katsoa mitä tapahtuu kun komento **$ sudo salt '*' state.apply sshd** tehdään uudestaan.
+- ![image](https://user-images.githubusercontent.com/105793201/230852638-a0de2bf2-b202-440f-904f-360b6528c607.png)
+- Portti 1255 tuli käyttöön (ensiksi ajattelin nimeä 1234, mutta muutin nimen 1255) 
+- ![image](https://user-images.githubusercontent.com/105793201/230853277-ed7656fc-0fed-4b5e-8b18-f1f5d33565db.png)
+- ![image](https://user-images.githubusercontent.com/105793201/230853316-55234a6b-89bf-4fca-be38-b080db0df84c.png)
+- SSH service on tämän jälkeen uudelleen käynnistetty. 
 
 # References:
 - https://terokarvinen.com/2023/palvelinten-hallinta-2023-kevat/, Tero karvinen
 - https://terokarvinen.com/2018/pkg-file-service-control-daemons-with-salt-change-ssh-server-port/?fromSearch=salt%20ssh, Tero karvinen
-
 
 
