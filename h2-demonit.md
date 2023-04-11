@@ -13,8 +13,9 @@
 - tämän jälkeen sinun pitäisi päästä koneellesi!
 
 ## A) Asenna OpenSSH-palvelin käsin
-
-- tein tämän omalla tavalla siten, että resetoin kaikkien virtuaalikoneiden salasanat **sudo passwd** ja kirjauduin koneelle "t001" virtualboxilla 
+- Ensin ajoin komennon **sudo passwd vagrant**
+- Annettin uusi salasana
+- Kirjauduttiin VirtualBoxilla virtuaalikoneen "t001" komentokehotteella sisään
 - Tämän jälkeen poistin t001 virtuaalikoneen openssh:n komennolla **sudo apt purge openssh-server**
 - käynnistin koneen uudestaan
 - ja perään asensin sen uudestaan komennolla **sudo apt install openssh-server**
