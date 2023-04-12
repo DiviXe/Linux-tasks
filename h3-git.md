@@ -41,5 +41,11 @@
 - Readme.md on nyt palautunut normaaliiksi!
 -
 # D) Tukki. Tarkastele ja selitä varastosi lokia. Tarkista, että nimesi ja sähköpostiosoitteesi näkyy haluamallasi tavalla ja korjaa tarvittaessa.
+- katsotaan logitiedostoja Githubista komennolla **git log --patch**
+- ![image](https://user-images.githubusercontent.com/105793201/231430723-334773ea-5082-485d-9958-525a1ba680bd.png)
+- pistin sähköposti osoitteen piiloon. Tässä näkyy, että olen Leo Ahopalo käyttäjällä tehnyt yhden commitin
+- Olen lisännyt tekstitiedostoon readme.md +hei pukki älä tule vielä, koska kesä tulee :)
+- Siinä kaikki harjoitus on valmis.
+
 ## References
 - https://terokarvinen.com/2023/palvelinten-hallinta-2023-kevat/, Tero karvinen
