@@ -34,6 +34,12 @@
 - Kommentti näkyy ja tiedostokin on muuttunut
 
 # C) Doh! Tee tyhmä muutos gittiin, älä tee commit:tia. Tuhoa huonot muutokset ‘git reset --hard’. Huomaa, että tässä toiminnossa ei ole peruutusnappia.
-
+- ![image](https://user-images.githubusercontent.com/105793201/231402181-b3d4d988-6c7b-4e40-b73c-95bf8ba0d6b7.png)
+- Oho nyt tuli tyhmiä muutoksia! Tehdään **reset --hard**, tuodaan vanha pusku läpi.
+- ![image](https://user-images.githubusercontent.com/105793201/231402282-34155efd-f29f-4b25-ba19-6ad7ac503dca.png)
+- ![image](https://user-images.githubusercontent.com/105793201/231402376-62006ab5-de6e-40e1-8b84-3e2d675e5e14.png)
+- Readme.md on nyt palautunut normaaliiksi!
+-
+# D) Tukki. Tarkastele ja selitä varastosi lokia. Tarkista, että nimesi ja sähköpostiosoitteesi näkyy haluamallasi tavalla ja korjaa tarvittaessa.
 ## References
 - https://terokarvinen.com/2023/palvelinten-hallinta-2023-kevat/, Tero karvinen
