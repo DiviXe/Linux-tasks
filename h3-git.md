@@ -33,7 +33,7 @@
 - ![image](https://user-images.githubusercontent.com/105793201/231385335-4eba8fd2-7b3b-421e-97af-169ef8f95f83.png)
 - Kommentti näkyy ja tiedostokin on muuttunut
 
-
+# C) Doh! Tee tyhmä muutos gittiin, älä tee commit:tia. Tuhoa huonot muutokset ‘git reset --hard’. Huomaa, että tässä toiminnossa ei ole peruutusnappia.
 
 ## References
 - https://terokarvinen.com/2023/palvelinten-hallinta-2023-kevat/, Tero karvinen
