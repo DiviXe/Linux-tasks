@@ -2,6 +2,9 @@
 
 #Käytössä olevat työkalut:
 - Tehtävä tehty windows kympillä Git bashillä.
+- tietokoneelle oli asennettu git sivustolta: https://gitforwindows.org/
+- ![image](https://user-images.githubusercontent.com/105793201/232413772-6ff742a6-6d53-44aa-83c1-55a8e9c6eecd.png)
+
 
 # A) Online. Tee uusi varasto GitHubiin (tai Gitlabiin tai mihin vain vastaavaan palveluun). Varaston nimessä ja lyhyessä kuvauksessa tulee olla sana "summer". Aiemmin tehty varasto ei kelpaa. (Muista tehdä varastoon tiedostoja luomisvaiheessa, esim README.md ja GNU General Public License 3)
 
