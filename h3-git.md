@@ -52,6 +52,7 @@
 - ![image](https://user-images.githubusercontent.com/105793201/231430723-334773ea-5082-485d-9958-525a1ba680bd.png)
 - pistin sähköposti osoitteen piiloon. Tässä näkyy, että olen Leo Ahopalo käyttäjällä tehnyt yhden commitin
 - Olen lisännyt tekstitiedostoon readme.md +hei pukki älä tule vielä, koska kesä tulee :)
+- DiviXe github käyttäjä on myös mukana
 - Siinä kaikki harjoitus on valmis.
 
 ## References
