@@ -23,9 +23,21 @@
 - ![image](https://user-images.githubusercontent.com/105793201/233042396-6afd4615-a80e-4039-b6ff-80eca95a7c3c.png)
 - kaikki toimii oletuksen mukaisesti.
 # B) hello.py. Tee oma Python-skripti ja laita se kaikille käyttäjille.
-
+- Koska path variable on asetettu niin python scriptin tekeminen pitäisi olla helppoa, aloitetaan menemällä uudestaan script tiedostoihin ja luodaan pythonhello.py script tiedosto. **sudo nano pythonhello.py**
+- Käytetään virtuaalikoneessa olevaa python environment kolmosta, jonka polku ilmoitetaan koodin alussa. 
+- ![image](https://user-images.githubusercontent.com/105793201/233043552-6364df92-51ba-4a40-a26f-04fc1b4136af.png)
+- katsotaan varmuuden vuoksi pythonin versio.
+- koneessa on python 3.9.2 versio
+- ![image](https://user-images.githubusercontent.com/105793201/233043705-3c186267-abe8-4e6c-bfa8-ce928897977f.png)
+- hyväksytään scripti kaikille käyttäjille komennolla **sudo chmod +x pythonhello.py** 
+- Hyväksyntä onnistui
+- ![image](https://user-images.githubusercontent.com/105793201/233043916-8a7667cc-bd16-49aa-a1cc-02fbdd42f5d2.png)
+- kokeillaan seuraavaksi toimiiko koodi oikein.
+- ![image](https://user-images.githubusercontent.com/105793201/233045452-93845fe7-1e80-458d-a831-feb43c74bfbf.png)
+- komento toimii
 # C) Automatisoi näiden skriptien asennus orjille Saltilla.
-
+- Nyt laitetaan koodit orjille. 
+- TULOSSA PIAN
 # D) Asenna jokin yhden binäärin ohjelma Saltilla orjille.
 
 
