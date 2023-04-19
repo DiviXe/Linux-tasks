@@ -1,4 +1,5 @@
 # Komennus tehtävä
+- Tehtävän tekemiseen käytetty kuuluisaa Windows PowerShelliä. 
 
 # A) hello.sh. Tee oma shell script (bash, sh...) ja laita se kaikille käyttäjille.
 
