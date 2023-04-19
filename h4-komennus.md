@@ -1,5 +1,5 @@
 # Komennus tehtävä
-- Tehtävän tekemiseen käytetty kuuluisaa Windows PowerShelliä. 
+- Tehtävän tekemiseen käytetty "kuuluisaa" Windows kymppiä ja PowerShelliä. 
 
 # A) hello.sh. Tee oma shell script (bash, sh...) ja laita se kaikille käyttäjille.
 - Käynnistetään virtuaalikoneet **vagrant up** :illa ja mennään master käyttäjälle perus kommennolla **vagrant ssh tmaster** 
