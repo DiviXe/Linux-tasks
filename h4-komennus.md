@@ -69,7 +69,14 @@
 - ![image](https://user-images.githubusercontent.com/105793201/233348235-b0dfe3c7-8a38-4e0e-a454-931964263375.png)
 - Tiedostoja ei näy tasks salt kansiossa, joten laitan tiedostot paikoilleen.
 - ![image](https://user-images.githubusercontent.com/105793201/233348963-ceeb5439-ca51-4cd3-a3ce-2c3af1742c16.png)
-- Tiedostot ovat nyt kunnossa, yritetään saltin ajamista uudestaan.
+- vaihdetaan myös source saltista tiedostoon **salt://tasks/**, koska tälloin mehän emme ole ottamassa tiedostoja "task.sls" tiedoston sisältä.
+- ![image](https://user-images.githubusercontent.com/105793201/233349937-372ba0b3-0a96-4587-b205-0ee81f63f686.png)
+- Kokeillaan uudestaan!
+- ![image](https://user-images.githubusercontent.com/105793201/233350164-3017799f-b7eb-4ba0-92ec-76f4a201cbc0.png)
+- mollemille koneille on luotu uudet tiedostot koneen sisään! Katsotaan vielä idempotenttisuus.
+- Idempotenttisuus kunnossa, tiedostoja EI ladata uudestaan eikä mikään muutu järjestelmässä.
+- ![image](https://user-images.githubusercontent.com/105793201/233350371-bf8aaa6f-b7e5-41fc-bf17-67d8d938ecb1.png)
+- kokeillaan vielä scriptien ajaminen.
 - 
 
 
