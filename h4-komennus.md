@@ -30,8 +30,9 @@
 - ![image](https://user-images.githubusercontent.com/105793201/233340754-2e1de5ab-46dc-434d-8ac7-46dab592d5ea.png)
 - Koodi ei näyttänyt toimivan. Etsitään vika. 
 -Päättelin, että vikana oli kansion runit oikeudet vaikka kansio olibin rootissa, joten lisäsin hello.sh tiedoston suoraan /usr/local/bin kansiostoon ja koodi toimi!
-- käytin komentoa **sudo cp ~/shine/hello.sh /usr/local/bin/** (selitystä lisää)
+- käytin komentoa **sudo cp ~/shine/hello.sh /usr/local/bin/** 
 - ![image](https://user-images.githubusercontent.com/105793201/233341846-38eb86bc-ae88-450c-8ac9-9e950ae53c64.png)
+- Runit kansion tekeminen oli siis täysin turhaa.
 
 # B) hello.py. Tee oma Python-skripti ja laita se kaikille käyttäjille.
 - Python scriptin tekeminen pitäisi olla helppoa, aloitetaan menemällä uudestaan shine kansioon ja luodaan pythonhello.py script tiedosto. ** nano pythonhello.py**
