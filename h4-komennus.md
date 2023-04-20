@@ -32,22 +32,26 @@
 -Päättelin, että vikana oli kansion runit oikeudet vaikka kansio olibin rootissa, joten lisäsin hello.sh tiedoston suoraan /usr/local/bin kansiostoon ja koodi toimi!
 - käytin komentoa **sudo cp ~/shine/hello.sh /usr/local/bin/** (selitystä lisää)
 - ![image](https://user-images.githubusercontent.com/105793201/233341846-38eb86bc-ae88-450c-8ac9-9e950ae53c64.png)
+
 # B) hello.py. Tee oma Python-skripti ja laita se kaikille käyttäjille.
 - Python scriptin tekeminen pitäisi olla helppoa, aloitetaan menemällä uudestaan shine kansioon ja luodaan pythonhello.py script tiedosto. ** nano pythonhello.py**
 - ![image](https://user-images.githubusercontent.com/105793201/233342242-0d6c8bbf-b48a-43cf-a02f-8aa1b88c2e4c.png)
 - ![image](https://user-images.githubusercontent.com/105793201/233342102-c9af6013-8e9b-4cf1-8f27-270b9b86bff8.png)
 - Tarkistan varmuuden vuoksi pythonin version komennolla python --version
 - koneessa on python 3.9.2 versio
-- ![image](https://user-images.githubusercontent.com/105793201/233043705-3c186267-abe8-4e6c-bfa8-ce928897977f.png)
-- hyväksytään scripti kaikille käyttäjille komennolla **sudo chmod +x pythonhello.py** 
-- Hyväksyntä onnistui
-- ![image](https://user-images.githubusercontent.com/105793201/233043916-8a7667cc-bd16-49aa-a1cc-02fbdd42f5d2.png)
-- kokeillaan seuraavaksi toimiiko koodi oikein.
-- ![image](https://user-images.githubusercontent.com/105793201/233045452-93845fe7-1e80-458d-a831-feb43c74bfbf.png)
-- komento toimii
+- ![image](https://user-images.githubusercontent.com/105793201/233342947-fed27575-79cc-4a8e-b474-5206ba14497d.png)
+- Valitettavasti pythonhello:a ei pystytty ajamaan ja scripti näkyy valkoisena, koska tiedostolla ei ole oikeuksia.
+- ![image](https://user-images.githubusercontent.com/105793201/233343189-12342e15-9b84-43b8-bcc8-5583e196ba04.png)
+- lisätään oikeudet komennolla **chmod ugo+x pythonhello.py**
+- Tarkastellaan kansiota uudestaan ja ajetaan komento.
+- ![image](https://user-images.githubusercontent.com/105793201/233343462-fe22fa3a-ff0b-4628-8392-ef703ddd4152.png)
+-  Vihreä on jo parempi! Eli oikeudet näkyy olevan ja komento toimii!
+-  Nyt lisätään se roottin ja katsotaan miten se toimii.
+-  ![image](https://user-images.githubusercontent.com/105793201/233343815-fd74c2c4-855c-41e6-aa3c-0ae2fb741054.png)
+- Komento tomii täydellisesti kaikkialla!
 # C) Automatisoi näiden skriptien asennus orjille Saltilla.
 - Nyt laitetaan koodit orjille. 
-- TULOSSA PIAN
+- 
 # D) Asenna jokin yhden binäärin ohjelma Saltilla orjille.
 
 
