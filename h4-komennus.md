@@ -84,8 +84,12 @@
 - Tehtävä suoritettu
 
 # D) Asenna jokin yhden binäärin ohjelma Saltilla orjille.
-
-
-
+- Asennetaan vaikka nano kommennolla **$ sudo salt '*' state.single pkg.installed name=nano** Name=nano niin se on varmasti nano editor eikä muu nano.
+- ![image](https://user-images.githubusercontent.com/105793201/233352073-0568f350-ab13-43b0-baf7-a5e9e4e53419.png)
+- Nano olikin jo asennettu, mutta ei se haittaa! Kokeillaan testata mikä versio nanossa on. (Nanon asennus olisi muuten onnistunut)
+- ![image](https://user-images.githubusercontent.com/105793201/233352624-39c31387-de70-4b9f-a3c9-3d95d8b9e119.png)
+- no eipä tullut kummosta ilmoitusta, kokeillaan kuitenkin cmd.runista vielä.
+- ![image](https://user-images.githubusercontent.com/105793201/233352978-fcd70820-a360-428c-84d8-291e19ba8344.png)
+- nanohan se siellä on.
 ## References: 
 - https://terokarvinen.com/2018/control-windows-with-salt/, Tero Karvinen, 2018
