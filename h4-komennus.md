@@ -20,16 +20,23 @@
 - ![image](https://user-images.githubusercontent.com/105793201/233338245-032d1552-d535-4489-aff3-f162ad135cfa.png)
 - Scripti toimii nyt oletetussa kansiossa shine.  
 - Luon nyt uuden kansion roottiin, /usr/local/bin/ johon liitän minun hello.sh scriptin. 
-- 
-- ![image](https://user-images.githubusercontent.com/105793201/233041821-9e5c2909-9296-44bd-9fc2-f614d588a85b.png)
-- Refereshataan envronment kansiosto komennolla **source /etc/environment** ja ajetaan komento hello.sh ilman sitä, että olemme root tiedostoissa. 
-- ![image](https://user-images.githubusercontent.com/105793201/233042396-6afd4615-a80e-4039-b6ff-80eca95a7c3c.png)
-- kaikki toimii oletuksen mukaisesti.
+- sudo mkdir **/usr/local/bin/runit**
+- ![image](https://user-images.githubusercontent.com/105793201/233338913-06806054-aaaa-4c16-b201-37660d8746a8.png)
+- Tiedosto on kuitenkin tyhjä joten ehkä tämä on syy miksi en nää sitä ls komennolla. 
+- ![image](https://user-images.githubusercontent.com/105793201/233340250-5940c573-aed7-4971-be31-63f1bbbe0388.png)
+- tiedosto meni perille ja tarkistin vielä, että shine kansiossa on scripti hello. Tarkistan nyt asian root kansiosta.
+- ![image](https://user-images.githubusercontent.com/105793201/233340399-e8333197-f18a-4f8e-998c-208b15edc260.png)
+- tiedosto näyttää olevan sielläkin. Testataan koodia!
+- ![image](https://user-images.githubusercontent.com/105793201/233340754-2e1de5ab-46dc-434d-8ac7-46dab592d5ea.png)
+- Koodi ei näyttänyt toimivan. Etsitään vika. 
+-Päättelin, että vikana oli kansion runit oikeudet vaikka kansio olibin rootissa, joten lisäsin hello.sh tiedoston suoraan /usr/local/bin kansiostoon ja koodi toimi!
+- käytin komentoa **sudo cp ~/shine/hello.sh /usr/local/bin/** (selitystä lisää)
+- ![image](https://user-images.githubusercontent.com/105793201/233341846-38eb86bc-ae88-450c-8ac9-9e950ae53c64.png)
 # B) hello.py. Tee oma Python-skripti ja laita se kaikille käyttäjille.
-- Koska path variable on asetettu niin python scriptin tekeminen pitäisi olla helppoa, aloitetaan menemällä uudestaan script tiedostoihin ja luodaan pythonhello.py script tiedosto. **sudo nano pythonhello.py**
-- Käytetään virtuaalikoneessa olevaa python environment kolmosta, jonka polku ilmoitetaan koodin alussa. 
-- ![image](https://user-images.githubusercontent.com/105793201/233043552-6364df92-51ba-4a40-a26f-04fc1b4136af.png)
-- katsotaan varmuuden vuoksi pythonin versio.
+- Python scriptin tekeminen pitäisi olla helppoa, aloitetaan menemällä uudestaan shine kansioon ja luodaan pythonhello.py script tiedosto. ** nano pythonhello.py**
+- ![image](https://user-images.githubusercontent.com/105793201/233342242-0d6c8bbf-b48a-43cf-a02f-8aa1b88c2e4c.png)
+- ![image](https://user-images.githubusercontent.com/105793201/233342102-c9af6013-8e9b-4cf1-8f27-270b9b86bff8.png)
+- Tarkistan varmuuden vuoksi pythonin version komennolla python --version
 - koneessa on python 3.9.2 versio
 - ![image](https://user-images.githubusercontent.com/105793201/233043705-3c186267-abe8-4e6c-bfa8-ce928897977f.png)
 - hyväksytään scripti kaikille käyttäjille komennolla **sudo chmod +x pythonhello.py** 
