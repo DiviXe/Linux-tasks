@@ -5,14 +5,17 @@
 - Käynnistetään virtuaalikoneet **vagrant up** :illa ja mennään master käyttäjälle perus kommennolla **vagrant ssh tmaster** 
 - Sisällä ollaan.
 - ![image](https://user-images.githubusercontent.com/105793201/233036664-4a6feac5-e849-4eb8-96a5-7b77d55b069d.png)
-- Seuraavaksi luodaan scripti kansio nimeltä scripts (Tiedosto menee roottiin eli sinne missä on kaikki tietokoneen sisäiset paketit ja käyttäjät.)
-- **sudo mkdir /usr/local/bin/scripts** ja mennään scripts kansion sisälle **cd /usr/local/bin/scripts scripts**
-- ![image](https://user-images.githubusercontent.com/105793201/233038101-9640628c-0c4d-46b7-84b3-e3b3ff7d0b77.png)
-- Nyt tehdään scripti tiedosto hello.sh kansion sisälle komennolla **sudo nano hello.sh** ja laitetaan tiedosto kirjoittamaan shine. 
-- ![image](https://user-images.githubusercontent.com/105793201/233038888-f7f05a87-1e2a-4ad6-a748-c06a0e9526c1.png)
-- ![image](https://user-images.githubusercontent.com/105793201/233039004-85671b71-9cc0-4717-ba40-b51076c50d34.png)
-- Seuraavaksi kirjoitetaan komento **sudo chmod +x hello.sh** , joka antaa oikeudet kaikille käyttäjille ja oikeudet pyörittää ohjelmaa. 
-- ![image](https://user-images.githubusercontent.com/105793201/233039366-1108e7d0-60aa-46be-a453-cb7d536468d3.png)
+- Seuraavaksi luodaan scripti kansio nimeltä shine 
+- ** mkdir shine** ja mennään scripts kansion sisälle **cd shine**
+- ![image](https://user-images.githubusercontent.com/105793201/233334481-02112c8d-db38-4b3f-b3f2-49c371fe394b.png)
+- Nyt tehdään scripti tiedosto hello.sh kansion sisälle komennolla ** nano hello.sh** ja laitetaan tiedosto kirjoittamaan shine. 
+- ![image](https://user-images.githubusercontent.com/105793201/233334854-c9c616d9-1030-48c9-a3a6-18f96357d834.png)
+- ![image](https://user-images.githubusercontent.com/105793201/233334926-c204eae4-caa3-423a-927f-d29ed5f96890.png)
+- kokeillaan komentoa kansiossa
+- ![image](https://user-images.githubusercontent.com/105793201/233335080-94185c43-0d65-428a-aff6-cfa9112d19da.png)
+- "Permission denied, eli käyttöoikeuksia ei ole. pitää ajaa komento, jolla saadaan käyttöoikeudet kyseiselle koodille.
+- Kirjoitetaan komento **chmod ugo+x hello.sh** , joka antaa oikeudet kaikille käyttäjille ja oikeudet pyörittää ohjelmaa. 
+- ![image](https://user-images.githubusercontent.com/105793201/233335456-40bfbac7-71ce-44d4-8d8c-a92a1a2da21a.png)
 - ongelmia ei ilmennyt joten komento onnistui.
 - ![image](https://user-images.githubusercontent.com/105793201/233040201-0da699f3-fb72-4ac1-bef0-f6aa17bcbbb4.png)
 - Scripti toimii root kansiossa oletetusti 
