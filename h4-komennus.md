@@ -17,10 +17,10 @@
 - Kirjoitetaan komento **chmod ugo+x hello.sh** , joka antaa oikeudet kaikille käyttäjille ja oikeudet pyörittää ohjelmaa. 
 - ![image](https://user-images.githubusercontent.com/105793201/233335456-40bfbac7-71ce-44d4-8d8c-a92a1a2da21a.png)
 - ongelmia ei ilmennyt joten komento onnistui.
-- ![image](https://user-images.githubusercontent.com/105793201/233335901-a24adb6b-c119-46d4-bca9-34f23c762be8.png)
+- ![image](https://user-images.githubusercontent.com/105793201/233338245-032d1552-d535-4489-aff3-f162ad135cfa.png)
 - Scripti toimii nyt oletetussa kansiossa shine.  
-- Nyt luodaan path variable **/etc/environment** kansioon PATH eli tiedostopolku, joka löytyy rootista ja siinä on kaikki oikeudet. 
-- **PATH="/usr/local/bin/scripts:$PATH"**
+- Luon nyt uuden kansion roottiin, /usr/local/bin/ johon liitän minun hello.sh scriptin. 
+- 
 - ![image](https://user-images.githubusercontent.com/105793201/233041821-9e5c2909-9296-44bd-9fc2-f614d588a85b.png)
 - Refereshataan envronment kansiosto komennolla **source /etc/environment** ja ajetaan komento hello.sh ilman sitä, että olemme root tiedostoissa. 
 - ![image](https://user-images.githubusercontent.com/105793201/233042396-6afd4615-a80e-4039-b6ff-80eca95a7c3c.png)
