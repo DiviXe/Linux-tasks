@@ -49,16 +49,21 @@
 -  Nyt lisätään se roottin ja katsotaan miten se toimii.
 -  ![image](https://user-images.githubusercontent.com/105793201/233343815-fd74c2c4-855c-41e6-aa3c-0ae2fb741054.png)
 - Komento tomii täydellisesti kaikkialla!
+
 # C) Automatisoi näiden skriptien asennus orjille Saltilla.
 - Nyt laitetaan koodit orjille. 
 - luodaan uusi salt tiedosto kansio tasks ja luodaan sinne scripti joka lähettää tiedostot orjakoneilla ja määritellään oikeudeksi mode: "0755" eli suoritusoikeudet.
 - Ensin tehtiin kansio salttiin komennolla **$ sudo mkdir -p /srv/salt/tasks** tämän jälkeen mentiin itse kansioon ja laitettiin koodit paikoilleen.
 - **sudoedit /srv/salt/tasks/task.sls**
+- ![image](https://user-images.githubusercontent.com/105793201/233346861-f4a8af88-a6e0-4e65-9e46-1a04f6ffa009.png)
 - koska tiedoston nimet oli hello.sh ja pythonhello.py otin molemmat mukaan rootista.
 - Sourceksi tulee polku josta tiedosto lähtee minioneille.
 - ![image](https://user-images.githubusercontent.com/105793201/233346542-8865d7e0-61ca-47d8-bc83-c6f53d6d49a4.png)
-- testataan lähteekö koodi perille!
-- tiedosto näytt
+- Koodi näyttää olevan myös oikeassa paikassa
+- ![image](https://user-images.githubusercontent.com/105793201/233346913-8e865896-bf3c-4709-babe-72213e28b406.png)
+
+- testataan lähteekö koodi perille komennolla sudo salt '*' state.apply task
+
 # D) Asenna jokin yhden binäärin ohjelma Saltilla orjille.
 
 
