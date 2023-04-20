@@ -6,7 +6,7 @@
 - Sisällä ollaan.
 - ![image](https://user-images.githubusercontent.com/105793201/233036664-4a6feac5-e849-4eb8-96a5-7b77d55b069d.png)
 - Seuraavaksi luodaan scripti kansio nimeltä shine 
-- ** mkdir shine** ja mennään scripts kansion sisälle **cd shine**
+- **mkdir shine** ja mennään scripts kansion sisälle **cd shine**
 - ![image](https://user-images.githubusercontent.com/105793201/233334481-02112c8d-db38-4b3f-b3f2-49c371fe394b.png)
 - Nyt tehdään scripti tiedosto hello.sh kansion sisälle komennolla ** nano hello.sh** ja laitetaan tiedosto kirjoittamaan shine. 
 - ![image](https://user-images.githubusercontent.com/105793201/233334854-c9c616d9-1030-48c9-a3a6-18f96357d834.png)
