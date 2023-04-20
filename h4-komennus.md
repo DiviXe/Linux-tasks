@@ -92,7 +92,6 @@
 - no eipä tullut kummosta ilmoitusta, kokeillaan kuitenkin cmd.runista vielä.
 - ![image](https://user-images.githubusercontent.com/105793201/233352978-fcd70820-a360-428c-84d8-291e19ba8344.png)
 - nanohan se siellä on.
-- 
 ## References: 
 - https://terokarvinen.com/2018/control-windows-with-salt/, Tero Karvinen 2018, Contorl windows with salt
 - https://terokarvinen.com/2023/palvelinten-hallinta-2023-kevat/, Tero karivnen 2023, Palvelinten hallinta 
