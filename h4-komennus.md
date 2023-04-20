@@ -76,9 +76,12 @@
 - mollemille koneille on luotu uudet tiedostot koneen sisään! Katsotaan vielä idempotenttisuus.
 - Idempotenttisuus kunnossa, tiedostoja EI ladata uudestaan eikä mikään muutu järjestelmässä.
 - ![image](https://user-images.githubusercontent.com/105793201/233350371-bf8aaa6f-b7e5-41fc-bf17-67d8d938ecb1.png)
-- kokeillaan vielä scriptien ajaminen.
-- 
-
+- kokeillaan vielä scriptien ajaminen komennolla, **sudo salt '*' state.single cmd.run 'hello.sh ja hellopython.py'**
+- Shine tulee näkyviin!
+- ![image](https://user-images.githubusercontent.com/105793201/233350820-dd810875-f622-466f-bc60-2e5f4f2e4d68.png)
+- Hello world! i am python snake! tulee näkyviin myös!
+- ![image](https://user-images.githubusercontent.com/105793201/233350937-a0a3270b-1317-41bf-8cb7-9f0668315d15.png)
+- Tehtävä suoritettu
 
 # D) Asenna jokin yhden binäärin ohjelma Saltilla orjille.
 
