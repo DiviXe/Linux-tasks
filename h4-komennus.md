@@ -62,7 +62,16 @@
 - Koodi näyttää olevan myös oikeassa paikassa
 - ![image](https://user-images.githubusercontent.com/105793201/233346913-8e865896-bf3c-4709-babe-72213e28b406.png)
 
-- testataan lähteekö koodi perille komennolla sudo salt '*' state.apply task
+- testataan lähteekö koodi perille komennolla sudo salt '*' state.apply tasks/task
+- ![image](https://user-images.githubusercontent.com/105793201/233347312-82375906-3433-4175-aacd-6db13ebc00e2.png)
+- Erroria tuli, taitaa olla että koodissa oli väärästi laitettu polku.
+- Ainiin, tietenkin unohtui tiedostojen kopiointi itse salttiin!
+- ![image](https://user-images.githubusercontent.com/105793201/233348235-b0dfe3c7-8a38-4e0e-a454-931964263375.png)
+- Tiedostoja ei näy tasks salt kansiossa, joten laitan tiedostot paikoilleen.
+- ![image](https://user-images.githubusercontent.com/105793201/233348963-ceeb5439-ca51-4cd3-a3ce-2c3af1742c16.png)
+- Tiedostot ovat nyt kunnossa, yritetään saltin ajamista uudestaan.
+- 
+
 
 # D) Asenna jokin yhden binäärin ohjelma Saltilla orjille.
 
