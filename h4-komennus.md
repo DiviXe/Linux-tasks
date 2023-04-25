@@ -36,7 +36,7 @@
 - Runit kansion tekeminen oli siis täysin turhaa.
 
 # B) hello.py. Tee oma Python-skripti ja laita se kaikille käyttäjille.
-- Python scriptin tekeminen pitäisi olla helppoa, aloitetaan menemällä uudestaan shine kansioon ja luodaan pythonhello.py script tiedosto. ** nano pythonhello.py**
+- Python scriptin tekeminen pitäisi olla helppoa, aloitetaan menemällä uudestaan shine kansioon ja luodaan pythonhello.py script tiedosto. **nano pythonhello.py**
 - ![image](https://user-images.githubusercontent.com/105793201/233342242-0d6c8bbf-b48a-43cf-a02f-8aa1b88c2e4c.png)
 - ![image](https://user-images.githubusercontent.com/105793201/233342102-c9af6013-8e9b-4cf1-8f27-270b9b86bff8.png)
 - Tarkistan varmuuden vuoksi pythonin version komennolla python --version
