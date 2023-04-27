@@ -4,8 +4,13 @@
 - Artikkeli käsittelee miten Windows koneesta tehdään salt master.
 - Ensiksi hommataan uusin ja puhdas versio Saltista Master koneelle tietyillä komennoilla
 - Lisätään kyseiset avaimet ja koodit Master Windows koneelle, joten orja koneet toimivat myöhemmin.
-- 
-- 
+- Hyväksytään orjat
+- Hyväksytään saltin Windowsin asennusten repositoryt
+- Asennetaan ohjelma esim. Firefox, Steam, Inkscape
+- Ajetaan powershell komentoja
+- Tämän jälkeen voimme "Admin" tilassa ajaa Salttia powershellin avulla lokaalisti
+- Ladataan lisää paketteja chocolatelyllä
+- Windows statella lisää ohjelmistoja
 
 ## 
 
