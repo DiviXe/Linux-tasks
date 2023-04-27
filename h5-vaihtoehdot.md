@@ -24,6 +24,7 @@
 - ![image](https://user-images.githubusercontent.com/105793201/234498896-3d0248b5-1e39-493b-ab87-93538a704642.png)
 - Salt minion on nyt ladattuna.
 - ![image](https://user-images.githubusercontent.com/105793201/234499055-87413b04-931a-4e0a-b650-005f7cae50b1.png)
+- Saltti on nyt asennettu. Testataan toimivuus. 
 
 ## References
 https://terokarvinen.com/2023/palvelinten-hallinta-2023-kevat/, Tero karvinen, Palvelinten hallinta 2023
