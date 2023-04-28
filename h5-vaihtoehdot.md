@@ -18,8 +18,10 @@
 
 #  Aloitetaan Windows virtuaali koneen asentaminen VM boxiin. 
 - Menin sivustolle https://www.microsoft.com/en-us/software-download/windows11
-- ja latasin Windows media installerin "Create Windows 11 Installation Media"
+- latasin Windows media installerin "Create Windows 11 Installation Media"
 - ![image](https://user-images.githubusercontent.com/105793201/235135749-1a118d25-90aa-4fd1-a4ea-eef028c043db.png)
+- Tämän jälkeen loin kyseisen Virtuaali koneen 
+- 
 
 
 ## References
