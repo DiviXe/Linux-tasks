@@ -16,16 +16,19 @@
 
 
 
-# A) Aloitetaan saltin asentamisella Windows koneelle.
-- Asennetaan Windows kybälle saltti.
-- Mennään linkkiin https://docs.saltproject.io/salt/install-guide/en/latest/topics/install-by-operating-system/windows.html
-- Tämän jälkeen ladataan AMD64 exe tiedosto. 
-- Avataan tiedosto ja otetaan käyttöön "default config" eli alkuperäiset koffaukset.
-- ![image](https://user-images.githubusercontent.com/105793201/234498896-3d0248b5-1e39-493b-ab87-93538a704642.png)
-- Salt minion on nyt ladattuna.
-- ![image](https://user-images.githubusercontent.com/105793201/234499055-87413b04-931a-4e0a-b650-005f7cae50b1.png)
-- Saltti on nyt asennettu. Testataan toimivuus. 
+#  Aloitetaan Windows virtuaali koneen asentaminen VM boxiin. 
+- Mennään sivustolle https://developer.microsoft.com/en-us/windows/downloads/virtual-machines/ 
+- Ladataan kyseinen tiedosto VirtualBoxille.
+- ![image](https://user-images.githubusercontent.com/105793201/235099616-dc6caae7-7920-4a1f-be5b-b18137ccf2f9.png)
+- puretaan zip file ja avataan tieodosto nimeltä WinDev2304Eval
+- ![image](https://user-images.githubusercontent.com/105793201/235128201-ab44bf7d-459e-4e7b-868c-865d1c3eef01.png)
+-  Windows on nyt boottaamis vaiheessa
+-  ![image](https://user-images.githubusercontent.com/105793201/235129094-63515724-8ab3-434c-aef2-95a21411fba9.png)
+- Tässä meni todella pitkä aika (noin 30 min) 
+- 
+
 
 ## References
 https://terokarvinen.com/2023/palvelinten-hallinta-2023-kevat/, Tero karvinen, Palvelinten hallinta 2023
 https://terokarvinen.com/2018/control-windows-with-salt/, Tero karvinen Windows with salt
+https://developer.microsoft.com/en-us/windows/downloads/virtual-machines/, Windows 11 for VMBox
