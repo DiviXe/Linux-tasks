@@ -75,6 +75,17 @@
 - ![image](https://user-images.githubusercontent.com/105793201/235182175-02561ad7-4900-403d-aafa-1f5f34932675.png)
 - En saanut yhteyttä Windows koneeseen. 
 - Katsotaan error message. "salt-run jobs.lookup_jid 20230428145647047975"
+- Googlailun jälkeen kyseessä on vissiin versio ongelma. 
+- "The error message you received seems to be related to the Salt event bus, specifically the jobs.lookup_jid function. This error is not likely to be caused by a version mismatch between your Windows PC and the other Salt minions."
+- Katsotaan saltin verio
+- Salt näyttää olevan versio 3002.6 tmasterilla, joten versio on paljon vanhempi.
+- ![image](https://user-images.githubusercontent.com/105793201/235191344-88154b00-1411-41c0-85ba-703ccc6370bf.png)
+- Mietin ensiksi Saltin päivittämistä, mutta voi olla, että se tulisi liian työlääksi. Parempi on ladata Windowsille vahempi versio.
+- Ensiksi poistetaan uusi version Windows minionilta.
+- ![image](https://user-images.githubusercontent.com/105793201/235211711-db2b37fe-82d8-4433-9b34-4a268a38696d.png)
+- Pitkän taistelun jälkeen sain vihdoin salt Minion 3002.6 version ladattua.
+- ![image](https://user-images.githubusercontent.com/105793201/235218345-8a517da4-b64b-45c3-b8e3-0020d3017331.png)
+
 
 
 ## References
