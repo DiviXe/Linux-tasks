@@ -50,8 +50,21 @@
 - ![image](https://user-images.githubusercontent.com/105793201/235169119-8ea4b13f-26c0-413b-a73c-1ba31c36845e.png)
 
 # B) Ei voi kalastaa. Käytä Windowsilla Salttia paikallisesti ilman verkkoa (Ruma-X, powershell as admin, salt-call --local state.single ...)
-- 
+- Mennään windows koneen sisälle tarkastelamaan komentoja.
+- Avataan powershelli Adminina.
+- ![image](https://user-images.githubusercontent.com/105793201/235169600-91054e64-ce8e-488f-adad-0678a4ad1adb.png)
+- Tehdään salt-call, jolla katsomme onko apache2 demoni ladattu Windowsille.
+- ![image](https://user-images.githubusercontent.com/105793201/235174030-ff4accde-57a2-44bb-995b-59ce1918cf0f.png)
+- Eipä taida olla, nyt tiedämme ainakin, että se pitää asentaa. Vastaus False tarkoittaa, että ohjelmaa ei ole asennettu.
+- Katsotaan mitä Ohjelmia Windows 11 sisältää. 
+- ![image](https://user-images.githubusercontent.com/105793201/235174726-d7b882a2-36fa-45f8-bb46-4390d452eb34.png)
+- Tässä onkin iso listaa, testataan onko UserManager olemassa varmuuden vuoksi. 
+- Näkyy olevan! Vastaus True tarkoittaa, että ohjelma on olemassa.
+- ![image](https://user-images.githubusercontent.com/105793201/235174984-e8fa1f6d-17dc-449b-ac9e-77fa0860bf8d.png)
 
+# C) Hei ikkuna! Tee hei maailma Windowsin Saltille. Voit vaikkapa tehdä tyhjän tiedoston johonkin väliaikaistiedostojen kansioon. Käytä idempotentteja komentoja, esim file.managed.
+
+- 
 
 
 ## References
