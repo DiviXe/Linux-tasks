@@ -99,7 +99,34 @@
 - Näyttää olevan!
 - ![image](https://user-images.githubusercontent.com/105793201/235228136-9924c256-6244-4c15-9b72-2d3001cdb815.png)
 - Text editor näyttää mustaa, mutta tiedosto on kuitenkin olemassa ja tekstikin on paikallaan.
+
+# D) Installed. Asenna Windowsille ohjelma Saltilla. (Voit käyttää eri vaihtoehtoja: kopioida binäärin suoraan sopivaan kansioon, pkg.installed ja choco, pkg.installed ja salt winrepo).
+- Asennetaan vaikka choco.
+- Tehdään Teron Control Windows With Salt artikkelin mukaisesti "Enable Salt Windows Software Repositories", koska kansioni on nimeltään windowscripts, joten anna tälle kansiolle oikeudet.
+- Tehdään vastaavat komennot:
+- **sudo mkdir /srv/salt/win**
+- **sudo chown root.salt /srv/salt/win**
+- **sudo chmod ug+rwx /srv/salt/win**
+- Nyt päivitetään Windows repositiot (lisää selityksiä myöhemmin) 
+- **sudo salt-run winrepo.update_git_repos**
+- **sudo salt -G 'os:windows' pkg.refresh_db**
+- ![image](https://user-images.githubusercontent.com/105793201/235230285-af0adcab-1929-456f-9525-08cc2e7b34c6.png)
+- Päivitykset tulleet onnistuneesti
+- Tehdään uusi init.sls tiedosto, jolle paketinhallinnan kautta pistetään ohjelmia läpi. 
+- Kokeillaan gitin ja nginxin asennusta.
+- ![image](https://user-images.githubusercontent.com/105793201/235230928-eafc49ed-69a1-4d8b-942c-d794a35ead37.png)
+- ![image](https://user-images.githubusercontent.com/105793201/235231346-2b890b2b-2181-4a02-9b15-c15225c777d4.png)
+- nginx ei tullut ladattua onnistuneesti, tämä on varmasti sen takia kun laitoin ne samaan. Kokeillaan uudestaan ilman nginxiä.
+- ![image](https://user-images.githubusercontent.com/105793201/235231867-dc23b9b5-bdd9-4297-b119-7c129a0690bf.png)
+- Gittikään ei onnistunut, mutta tämä johtuu ehkä siitä, että git on jo tietokoneella. 
+- ![image](https://user-images.githubusercontent.com/105793201/235231946-a728126c-a37f-4eaa-9044-93a65c2334c1.png)
+- Gittihän se siellä.
+- Kokeillaan choholatelyn lataus pkg.installilla.
+- ![image](https://user-images.githubusercontent.com/105793201/235232528-d08963cc-f8d0-46a5-9b07-74fb3d4270c9.png)
+- Lataus onnistui
+- Kokeillaan notepad ++:san latausta
 - 
+
 
 
 
