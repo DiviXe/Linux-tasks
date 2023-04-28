@@ -36,7 +36,7 @@
 - ![image](https://user-images.githubusercontent.com/105793201/235161970-b3feec3b-ca2d-483d-842b-eb249f013649.png)
 - ![image](https://user-images.githubusercontent.com/105793201/235164748-895ca965-1134-4eef-b497-27fa4ce4296b.png)
 - Salt minion asennettu.
-- Katsotaan mitä masterille kuuluu seuravaaksi.
+- Katsotaan mitä masterille kuuluu seuravaaksi. Komennolla **sudo salt-key** , jolla näämme kaikki olemassa olevat avaimet. 
 - ![image](https://user-images.githubusercontent.com/105793201/235165585-fde7e8aa-66a0-4285-ab0f-12f72e2cd8d3.png)
 - Windowsin avainta ei ole vielä näkyvissä. 
 - Käynnistän virtuaali koneen uudestaan.
@@ -44,6 +44,12 @@
 - ![image](https://user-images.githubusercontent.com/105793201/235166754-9de2ac49-a70a-41a0-9fa4-56d6a88ad8cb.png)
 - Nyt on aika käynnistää kone uudestaan.
 - Koneen käynnistyksessä menee erittäin paljon aikaa.
+- Windows kone löytyy nyt hyväksymättömistä avaimista!
+- ![image](https://user-images.githubusercontent.com/105793201/235168730-fe74ad7c-a90e-4738-82f4-94bc8d9981c1.png)
+- Hyväksytään avain ja kutsutaan windows perheeseen. **$ sudo salt-key -A**
+- ![image](https://user-images.githubusercontent.com/105793201/235169119-8ea4b13f-26c0-413b-a73c-1ba31c36845e.png)
+
+# B) Ei voi kalastaa. Käytä Windowsilla Salttia paikallisesti ilman verkkoa (Ruma-X, powershell as admin, salt-call --local state.single ...)
 - 
 
 
