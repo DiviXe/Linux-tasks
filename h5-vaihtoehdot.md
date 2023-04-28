@@ -63,11 +63,22 @@
 - ![image](https://user-images.githubusercontent.com/105793201/235174984-e8fa1f6d-17dc-449b-ac9e-77fa0860bf8d.png)
 
 # C) Hei ikkuna! Tee hei maailma Windowsin Saltille. Voit vaikkapa tehdä tyhjän tiedoston johonkin väliaikaistiedostojen kansioon. Käytä idempotentteja komentoja, esim file.managed.
-
+- Mennään takaisin vagrant@tmasterille ja salt kansioon johon luodaan uusi script tiedosto Windows Konetta varten.
+- Loin kansion nimeltä Windowscripts /srv/salt hakemistoon.
+- ![image](https://user-images.githubusercontent.com/105793201/235179605-4e312a9f-2e02-42f5-aa50-fdea568aa169.png)
+- Seuraavaksi luodaan init.sls tiedosto johon tehdään scriptejä. Komennolla **sudo nano /srv/salt/windowscripts/init.sls**
+- Luodaan scripti init.sls joka hakee moiwindows.txt:in salt kansiosta windowscripts
+- ![image](https://user-images.githubusercontent.com/105793201/235181006-59ee6d7c-a135-4348-9c0f-c169942b4b09.png)
+- Luodaan moiwindows.txt
+- ![image](https://user-images.githubusercontent.com/105793201/235181231-ba8bee39-4752-4ee3-a50d-84d957c679cc.png)
+- Testataan tekstitiedoston lähettämistä Windows orjalle komennolla **sudo salt 'Windows_salt' state.single init.sls**
+- ![image](https://user-images.githubusercontent.com/105793201/235182175-02561ad7-4900-403d-aafa-1f5f34932675.png)
+- En saanut yhteyttä Windows koneeseen. 
+- Katsotaan error message.
 - 
 
 
 ## References
-https://terokarvinen.com/2023/palvelinten-hallinta-2023-kevat/, Tero karvinen, Palvelinten hallinta 2023
-https://terokarvinen.com/2018/control-windows-with-salt/, Tero karvinen Windows with salt
-https://developer.microsoft.com/en-us/windows/downloads/virtual-machines/, Windows 11 for VMBox
+- https://terokarvinen.com/2023/palvelinten-hallinta-2023-kevat/, Tero karvinen, Palvelinten hallinta 2023
+- https://terokarvinen.com/2018/control-windows-with-salt/, Tero karvinen Windows with salt
+- https://developer.microsoft.com/en-us/windows/downloads/virtual-machines/, Windows 11 for VMBox
