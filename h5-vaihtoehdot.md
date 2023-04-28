@@ -17,15 +17,9 @@
 
 
 #  Aloitetaan Windows virtuaali koneen asentaminen VM boxiin. 
-- Mennään sivustolle https://developer.microsoft.com/en-us/windows/downloads/virtual-machines/ 
-- Ladataan kyseinen tiedosto VirtualBoxille.
-- ![image](https://user-images.githubusercontent.com/105793201/235099616-dc6caae7-7920-4a1f-be5b-b18137ccf2f9.png)
-- puretaan zip file ja avataan tieodosto nimeltä WinDev2304Eval
-- ![image](https://user-images.githubusercontent.com/105793201/235128201-ab44bf7d-459e-4e7b-868c-865d1c3eef01.png)
--  Windows on nyt boottaamis vaiheessa
--  ![image](https://user-images.githubusercontent.com/105793201/235129094-63515724-8ab3-434c-aef2-95a21411fba9.png)
-- Tässä meni todella pitkä aika (noin 30 min) 
-- 
+- Menin sivustolle https://www.microsoft.com/en-us/software-download/windows11
+- ja latasin Windows media installerin "Create Windows 11 Installation Media"
+- ![image](https://user-images.githubusercontent.com/105793201/235135749-1a118d25-90aa-4fd1-a4ea-eef028c043db.png)
 
 
 ## References
