@@ -88,7 +88,19 @@
 - Kone on elossa!
 - ![image](https://user-images.githubusercontent.com/105793201/235222547-e79b95ea-21cf-4719-abc4-19ae1fac7484.png)
 - Pusketaan muutokset uudestaan **sudo salt 'Windows_salt' state.single init.sls**
+- Jostain syystä salt ei tunnistanut, että scriptini init.sls oli salt kansiossa windowscripts.
+- ![image](https://user-images.githubusercontent.com/105793201/235227377-7a4c8630-de24-4559-94a4-524058e39c61.png)
+- Komennolla **$ sudo salt 'windows_salt' state.apply windowscripts.init** oletettiin, että windowscripteissä oli init tiedosto ja tällä sitten se meni läpi windowsille.
+- ![image](https://user-images.githubusercontent.com/105793201/235227493-88a91842-648b-4eea-957e-28f36e8d33a8.png)
+- Tarkistetaan idempotenttisuus
+- ![image](https://user-images.githubusercontent.com/105793201/235227912-0ffdc512-808a-4daa-aa62-433cd3cb5f65.png)
+- Katsotaan onko Windows koneella tiedosto
+- ![image](https://user-images.githubusercontent.com/105793201/235228011-0757f3e8-0b17-4b62-bd91-4d0afb9b8d79.png)
+- Näyttää olevan!
+- ![image](https://user-images.githubusercontent.com/105793201/235228136-9924c256-6244-4c15-9b72-2d3001cdb815.png)
+- Text editor näyttää mustaa, mutta tiedosto on kuitenkin olemassa ja tekstikin on paikallaan.
 - 
+
 
 
 
