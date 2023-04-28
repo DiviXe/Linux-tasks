@@ -85,6 +85,10 @@
 - ![image](https://user-images.githubusercontent.com/105793201/235211711-db2b37fe-82d8-4433-9b34-4a268a38696d.png)
 - Pitkän taistelun jälkeen sain vihdoin salt Minion 3002.6 version ladattua.
 - ![image](https://user-images.githubusercontent.com/105793201/235218345-8a517da4-b64b-45c3-b8e3-0020d3017331.png)
+- Kone on elossa!
+- ![image](https://user-images.githubusercontent.com/105793201/235222547-e79b95ea-21cf-4719-abc4-19ae1fac7484.png)
+- Pusketaan muutokset uudestaan **sudo salt 'Windows_salt' state.single init.sls**
+- 
 
 
 
