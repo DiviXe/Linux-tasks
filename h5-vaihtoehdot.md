@@ -74,8 +74,7 @@
 - Testataan tekstitiedoston lähettämistä Windows orjalle komennolla **sudo salt 'Windows_salt' state.single init.sls**
 - ![image](https://user-images.githubusercontent.com/105793201/235182175-02561ad7-4900-403d-aafa-1f5f34932675.png)
 - En saanut yhteyttä Windows koneeseen. 
-- Katsotaan error message.
-- 
+- Katsotaan error message. "salt-run jobs.lookup_jid 20230428145647047975"
 
 
 ## References
