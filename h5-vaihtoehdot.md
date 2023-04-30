@@ -119,13 +119,12 @@
 - nginx ei tullut ladattua onnistuneesti, tämä on varmasti sen takia kun laitoin ne samaan. Kokeillaan uudestaan ilman nginxiä.
 - ![image](https://user-images.githubusercontent.com/105793201/235231867-dc23b9b5-bdd9-4297-b119-7c129a0690bf.png)
 - Gittikään ei onnistunut, mutta tämä johtuu ehkä siitä, että git on jo tietokoneella. 
+- Onko tähän lataukseen joku syy?
 - ![image](https://user-images.githubusercontent.com/105793201/235231946-a728126c-a37f-4eaa-9044-93a65c2334c1.png)
 - Gittihän se siellä.
 - Kokeillaan choholatelyn lataus pkg.installilla.
 - ![image](https://user-images.githubusercontent.com/105793201/235232528-d08963cc-f8d0-46a5-9b07-74fb3d4270c9.png)
 - Lataus onnistui
-- Kokeillaan notepad ++:san latausta
-- 
 
 
 
