@@ -125,7 +125,7 @@
 - Kokeillaan choholatelyn lataus pkg.installilla.
 - ![image](https://user-images.githubusercontent.com/105793201/235232528-d08963cc-f8d0-46a5-9b07-74fb3d4270c9.png)
 - Lataus onnistui
-
+- Tehtävä osittain valmis, jostain syystä notepad++ lataaminen ei onnistunut chocon kautta. Mikä syynä?
 
 
 
