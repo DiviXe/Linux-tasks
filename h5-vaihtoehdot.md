@@ -126,6 +126,10 @@
 - ![image](https://user-images.githubusercontent.com/105793201/235232528-d08963cc-f8d0-46a5-9b07-74fb3d4270c9.png)
 - Lataus onnistui
 - Tehtävä osittain valmis, jostain syystä notepad++ lataaminen ei onnistunut chocon kautta. Mikä syynä?
+- Kokeilin vielä päivittää windows_salt koneen paketit, mutta ei auttanut.
+- ![image](https://user-images.githubusercontent.com/105793201/235430484-77224f33-22d9-408f-9ab6-c126410dbb58.png)
+- ![image](https://user-images.githubusercontent.com/105793201/235430541-0230024f-6b1c-4e88-a49a-db6736e6659b.png)
+
 
 
 
