@@ -12,8 +12,15 @@
 - Ladataan lisää paketteja chocolatelyllä
 - Windows statella lisää ohjelmistoja
 
-## 
-
+## Saltti Windowsille H5, P seppänen 2018
+- Ladataan windows virtuaalikone
+- Ladataan Windowsille vanhempi versio saltista
+- Laitetaan masterin Ip-osoite salt minionin latauksen yhteydessä (muuten ei toimi jos ei tehdä oikein!)
+- Katsotaan avaimista masterilta, että tuliko windows orja paikalle.
+- Hyväksytään avain ja välitetään pkg.install gitti
+- Oho! Ei toiminut, Windows koneelle pitää antaa paketit orjakoneelta, jotta lataukset saadaan toimimaan.
+- Pakettien jälkeen asennus toimii ja windows kone pelittää!
+- Infraa koodilla on myös mahdollista eli scriptien tekeminen esim chocolateyn kautta.
 
 
 #  Aloitetaan Windows virtuaali koneen asentaminen VM boxiin. 
@@ -138,3 +145,4 @@
 - https://terokarvinen.com/2023/palvelinten-hallinta-2023-kevat/, Tero karvinen, Palvelinten hallinta 2023
 - https://terokarvinen.com/2018/control-windows-with-salt/, Tero karvinen Windows with salt
 - https://developer.microsoft.com/en-us/windows/downloads/virtual-machines/, Windows 11 for VMBox
+- https://pseppanen296518693.wordpress.com/, P seppänen Windows raportti
