@@ -7,7 +7,6 @@
 - Homework h4-komennos Done
 - Homework h5-vaihtoehdot Done
 - Homework h6-Puolikas Coming soon
-- Homework h6-Puolikas Coming soon
 - Homework h7-miniprojekti ja koko paketti Coming soon
 
 
