@@ -83,6 +83,7 @@
 - En saanut yhteyttä Windows koneeseen. 
 - Katsotaan error message. "salt-run jobs.lookup_jid 20230428145647047975"
 - Googlailun jälkeen kyseessä on vissiin versio ongelma. 
+- Sain tiedon ihan eri asiaan liittyen sivulta https://stackoverflow.com/questions/74733591/centos-salt-minion-cant-connect-to-salt-master-on-debian-sign-in-attempt-fail, mutta kommentissa luki, että "3004.1 minions are not able to communicate with masters older than 3004.1. You must upgrade your masters before upgrading minions. The same applies to any minions newer than 3004.1" , josta päättelin, että kyseessä on versio ongelma.
 - "The error message you received seems to be related to the Salt event bus, specifically the jobs.lookup_jid function. This error is not likely to be caused by a version mismatch between your Windows PC and the other Salt minions."
 - Katsotaan saltin verio
 - Salt näyttää olevan versio 3002.6 tmasterilla, joten versio on paljon vanhempi.
@@ -145,4 +146,5 @@
 - https://terokarvinen.com/2023/palvelinten-hallinta-2023-kevat/, Tero karvinen, Palvelinten hallinta 2023
 - https://terokarvinen.com/2018/control-windows-with-salt/, Tero karvinen Windows with salt
 - https://developer.microsoft.com/en-us/windows/downloads/virtual-machines/, Windows 11 for VMBox
+- https://stackoverflow.com/questions/74733591/centos-salt-minion-cant-connect-to-salt-master-on-debian-sign-in-attempt-fail, Salt-minion cant connect to salt master, Virheenpäättely esimerkki
 - https://pseppanen296518693.wordpress.com/, P seppänen Windows raportti
